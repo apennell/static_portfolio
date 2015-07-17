@@ -448,6 +448,14 @@ hr {
 --- Contact
 ============================ */
 
+section#contact {
+  position: relative;
+  z-index: 0;
+}
+form#contact-form {
+  position: relative;
+  z-index:10;
+}
 form#contact-form .form-group label {
   text-align: left !important;
   display: block;

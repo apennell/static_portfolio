@@ -13,6 +13,7 @@
 
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/isotope.css">
+  <link rel="stylesheet" href="css/modal.css">
   <!-- custom style sheet -->
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -140,12 +141,57 @@
           <div class="row">
             <div class="portfolio-items isotopeWrapper clearfix">
               <!-- create portfolio item -->
+              <!-- create modal -->
+              <div class="md-modal md-effect-12" id="modal-12">
+                <div class="md-content">
+                  <h1>Create</h1>
+                  <div>
+                    <strong><a href="https://createtoday.herokuapp.com/">Visit App</a> | <a href="https://github.com/apennell/create_app">GitHub Repository</a></strong>
+                    <br>
+                    <p>Created April 2015</p>
+                    <br>
+                    <p>
+                      Create is a daily art prompt web app built with Node.js, Express, Postgres, and Bootstrap, integrating authentication and authorization. Utilizing Wordnik’s API, a new word appears every day to provide inspiration. Users, called creators, use the prompt to make something in response, which can be posted to the site. All posts ("creations") can be viewed publicly, as well users' public profiles.
+                    </p>
+                    <p>
+                      The MVP simply allows for a written creation (poem, short story, etc.), but the goal is to add an image upload option so that photographers and visual artists can contribute as well. It has authorization and authentication to allow users to post and delete creations. It currently has a one-to-many association with many creations belonging to one user, but I would like to add a prompt model.
+                    </p>
+                    <button class="md-close">Close me!</button>
+                  </div>
+                </div>
+              </div>
+              <div class="md-overlay"></div>
+
               <article class="col-sm-4 isotopeItem">
                 <div class="portfolio-item">
                   <img src="img/create/create.png">
                   <div class="portfolio-desc align-center">
                     <div class="folio-info">
-                      <a href="img/create/create1.png" class="fancybox">
+                      <!-- <a href="https://createtoday.herokuapp.com/" class="fancybox"> -->
+                        <h4 class="port-name">Create</h4>
+                        <!-- <i class="fa fa-arrows-alt fa-2x"></i> -->
+                        <button class="md-trigger" data-modal="modal-12">Just Me</button>
+                        <h5 class="port-desc">JavaScript, Node.js, Express, PostgreSQL, Wordnik API</h5>
+                      <!-- </a> -->
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              
+
+
+
+
+
+
+
+<!--               <article class="col-sm-4 isotopeItem">
+                <div class="portfolio-item">
+                  <img src="img/create/create.png">
+                  <div class="portfolio-desc align-center">
+                    <div class="folio-info">
+                      <a href="https://createtoday.herokuapp.com/" class="fancybox">
                         <h4 class="port-name">Create</h4>
                         <i class="fa fa-arrows-alt fa-2x"></i>
                         <h5 class="port-desc">JavaScript, Node.js, Express, PostgreSQL, Wordnik API</h5>
@@ -153,7 +199,7 @@
                     </div>
                   </div>
                 </div>
-              </article>
+              </article> -->
 
               <!-- epoch portfolio item -->
                 <article class="col-sm-4 isotopeItem">
@@ -161,7 +207,7 @@
                     <img src="img/epoch/epoch.png">
                     <div class="portfolio-desc align-center">
                       <div class="folio-info">
-                        <a href="img/epoch/epoch1.png" class="fancybox">
+                        <a href="http://epochbank.herokuapp.com/" class="fancybox">
                           <h4 class="port-name">Epoch</h4>
                           <i class="fa fa-arrows-alt fa-2x"></i>
                           <h5 class="port-desc">Ruby on Rails, AJAX, Devise, Twilio API</h5>
@@ -177,7 +223,7 @@
                     <img src="img/mindkit/mindkit.png">
                     <div class="portfolio-desc align-center">
                       <div class="folio-info">
-                        <a href="img/mindkit/mindkit1.png" class="fancybox">
+                        <a href="https://github.com/apennell/mindKit" class="fancybox">
                           <h4 class="port-name">MindKit</h4>
                           <i class="fa fa-arrows-alt fa-2x"></i>
                           <h5 class="port-desc">Ionic, AngularJS, Node.js, Express, PostgreSQL</h5>
@@ -192,6 +238,9 @@
         </div>
 
       </div>
+
+      <div class="md-overlay"></div><!-- the overlay element -->
+
     </div>
 
       
@@ -240,7 +289,7 @@
                             <label for="email">
                                 Email Address</label>
                             <div class="input-group">
-                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-envel`ope"></span>
                                 </span>
                                 <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
                         </div>
@@ -328,10 +377,16 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="js/jquery.easing.min.js"></script>
   <script src="js/jquery.scrollTo.js"></script>
+
   <script src="js/wow.min.js"></script>
 
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <!-- modal scripts -->
+  <script src="js/modalEffects.js"></script>
+  <script src="js/classie.js"></script>
+  <script src="js/modernizr.custom.js"></script>
   
   <!-- custom javascript -->
   <script src="js/script.js"></script>
