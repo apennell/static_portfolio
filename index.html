@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/isotope.css">
   <link rel="stylesheet" href="css/modal.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.css">
   <!-- custom style sheet -->
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -35,21 +36,16 @@
           <li class="active"><a href="#intro">Home</a></li>
           <li><a href="#about">About</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#tiny-projects">Tiny Projects</a></li>
+        <li><a href="#cv">CV</a></li>
         <li><a href="#contact">Contact</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Example menu</a></li>
-              <li><a href="#">Example menu</a></li>
-              <li><a href="#">Example menu</a></li>
-            </ul>
-          </li>
         </ul>
         </div>
         <!-- /.navbar-collapse -->
     </div>
     <!-- /.container -->
   </nav>
+
 
   <!-- Section: intro -->
   <section id="intro" class="intro">
@@ -62,6 +58,7 @@
     </div>
   </section>
   <!-- /Section: intro -->
+
 
   <!-- Section: about -->
   <section id="about" class="home-section text-center">
@@ -140,9 +137,10 @@
         <div class="col-md-12">
           <div class="row">
             <div class="portfolio-items isotopeWrapper clearfix">
+              
               <!-- create portfolio item -->
               <!-- create modal -->
-              <div class="md-modal md-effect-12" id="modal-12">
+              <div class="md-modal md-effect-12" id="modal-create">
                 <div class="md-content">
                   <h1>Create</h1>
                   <div>
@@ -156,13 +154,13 @@
                     <p>
                       The MVP simply allows for a written creation (poem, short story, etc.), but the goal is to add an image upload option so that photographers and visual artists can contribute as well. It has authorization and authentication to allow users to post and delete creations. It currently has a one-to-many association with many creations belonging to one user, but I would like to add a prompt model.
                     </p>
-                    <button class="md-close">Close me!</button>
+                    <button class="md-close btn btn-positive">Close me!</button>
                   </div>
                 </div>
               </div>
               <div class="md-overlay"></div>
 
-              <article class="col-sm-4 isotopeItem">
+              <article class="col-xs-12 col-sm-4 isotopeItem">
                 <div class="portfolio-item">
                   <img src="img/create/create.png">
                   <div class="portfolio-desc align-center">
@@ -170,185 +168,333 @@
                       <!-- <a href="https://createtoday.herokuapp.com/" class="fancybox"> -->
                         <h4 class="port-name">Create</h4>
                         <!-- <i class="fa fa-arrows-alt fa-2x"></i> -->
-                        <button class="md-trigger" data-modal="modal-12">Just Me</button>
+                        <button class="md-trigger btn btn-positive" data-modal="modal-create">More</button>
                         <h5 class="port-desc">JavaScript, Node.js, Express, PostgreSQL, Wordnik API</h5>
                       <!-- </a> -->
                     </div>
                   </div>
                 </div>
               </article>
+              <!-- /create portfolio item -->
 
-              
+              <!-- epoch portfolio item -->
+              <!-- create modal -->
+              <div class="md-modal md-effect-12" id="modal-epoch">
+                <div class="md-content">
+                  <h1>Epoch</h1>
+                  <div>
+                    <strong><a href="https://github.com/apennell/timebank">GitHub Repository</a> | <a href="https://epochbank.herokuapp.com/">Visit App</a></strong>
+                    <br>
+                    <p>Created April 2015</p>
+                    <br>
+                    <p>
+                      Epoch is a time banking web app built with Ruby on Rails, utilizing AJAX, Bootstrap, Devise, and Twilio's API. Epoch was built by myself, James Bradley, Lyn Muldrow, and Steven Gordon. In addition to acting as project manager for three other engineers, my main tasks were authentication and authorization, constructing the User controller and views, and styling.
+                    </p>
+                    <p>
+                      Epoch allows users to receive services using the currency of their time, which is earned by providing other users with their own services. Every hour of work completed is removed from the recipient's account and added to the provider's, which can then be spent getting help from another user. Users sign up for the Epoch web app and act as both a provider and recipient. They list services they can provide as well as services they need. Users can offer to render a service wanted or request that a specific user help them. When a request is made, a text message alert is sent to the the user receiving the request. An exchange page is generated when a request is made and, once accepted, they receive each other's contact information. After service is rendered, this is confirmed on the site and the hour is transferred from the recipient to the provider's time bank. A text message alert is sent to the user at each of the 4 stages of the exchange process--when it is proposed, accepted, delivered, and confirmed. 
+                    </p>
+                    <button class="md-close btn btn-positive">Close me!</button>
+                  </div>
+                </div>
+              </div>
+              <div class="md-overlay"></div>
 
-
-
-
-
-
-
-<!--               <article class="col-sm-4 isotopeItem">
+              <article class="col-xs-12 col-sm-4 isotopeItem">
                 <div class="portfolio-item">
-                  <img src="img/create/create.png">
+                  <img src="img/epoch/epoch.png">
                   <div class="portfolio-desc align-center">
                     <div class="folio-info">
-                      <a href="https://createtoday.herokuapp.com/" class="fancybox">
-                        <h4 class="port-name">Create</h4>
-                        <i class="fa fa-arrows-alt fa-2x"></i>
-                        <h5 class="port-desc">JavaScript, Node.js, Express, PostgreSQL, Wordnik API</h5>
-                      </a>
+                      <!-- <a href="https://createtoday.herokuapp.com/" class="fancybox"> -->
+                        <h4 class="port-name">Epoch</h4>
+                        <!-- <i class="fa fa-arrows-alt fa-2x"></i> -->
+                        <button class="md-trigger btn btn-positive" data-modal="modal-epoch">More</button>
+                        <h5 class="port-desc">Ruby on Rails, AJAX, Devise, Twilio API</h5>
+                      <!-- </a> -->
                     </div>
                   </div>
                 </div>
-              </article> -->
+              </article>
 
-              <!-- epoch portfolio item -->
-                <article class="col-sm-4 isotopeItem">
-                  <div class="portfolio-item">
-                    <img src="img/epoch/epoch.png">
-                    <div class="portfolio-desc align-center">
-                      <div class="folio-info">
-                        <a href="http://epochbank.herokuapp.com/" class="fancybox">
-                          <h4 class="port-name">Epoch</h4>
-                          <i class="fa fa-arrows-alt fa-2x"></i>
-                          <h5 class="port-desc">Ruby on Rails, AJAX, Devise, Twilio API</h5>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </article>
 
               <!-- mindkit portfolio item -->
-                <article class="col-sm-4 isotopeItem">
-                  <div class="portfolio-item">
-                    <img src="img/mindkit/mindkit.png">
-                    <div class="portfolio-desc align-center">
-                      <div class="folio-info">
-                        <a href="https://github.com/apennell/mindKit" class="fancybox">
-                          <h4 class="port-name">MindKit</h4>
-                          <i class="fa fa-arrows-alt fa-2x"></i>
-                          <h5 class="port-desc">Ionic, AngularJS, Node.js, Express, PostgreSQL</h5>
-                        </a>
-                      </div>
+              <!-- create modal -->
+              <div class="md-modal md-effect-12" id="modal-mindkit">
+                <div class="md-content">
+                  <h1>MindKit</h1>
+                  <div>
+                    <strong><a href="https://github.com/apennell/mindKit">GitHub Repository</a></strong>
+                      <br>
+                      <p>Created June 2015</p>
+                      <br>
+                      <p>
+                        MindKit is a hybrid mobile app that acts as a toolkit for combating depression on a daily basis, largely through the use of cognitive behavioral therapy (CBT). It is built with Ionic using AngularJS and the database is connected with a NodeJS, Express, and PostgreSQL backend API. It is currently in beta in the Ionic View app, but once completed will be available for iOS and Android.
+                      </p>
+                      <p>
+                        The initial MVP is the thought log, in which Ionic-Wizard takes the user through a series of questions typical of a CBT automatic negative thought log to analyze a situation and their resulting thoughts and emotions. In the final step, the user is presented with their initial emotions and the strengths at which they reported feeling them and is asked to re-rate the emotions after going through the thought log. The differences between the initial and new emotions are averaged out and the user is shown the percentage of their improvement on this situation. They are also shown a lifetime improvement average and a graph of each entry's improvement on their progress page to see how the exercises are helping.
+                      </p>
+                    <button class="md-close btn btn-positive">Close me!</button>
+                  </div>
+                </div>
+              </div>
+              <div class="md-overlay"></div>
+
+              <article class="col-xs-12 col-sm-4 isotopeItem">
+                <div class="portfolio-item">
+                  <img src="img/MindKit/MindKit.png">
+                  <div class="portfolio-desc align-center">
+                    <div class="folio-info">
+                      <!-- <a href="https://MindKittoday.herokuapp.com/" class="fancybox"> -->
+                        <h4 class="port-name">MindKit</h4>
+                        <!-- <i class="fa fa-arrows-alt fa-2x"></i> -->
+                        <button class="md-trigger btn btn-positive" data-modal="modal-mindkit">More</button>
+                        <h5 class="port-desc">Ionic, AngularJS, Node.js, Express, PostgreSQL</h5>
+                      <!-- </a> -->
                     </div>
                   </div>
-                </article>
+                </div>
+              </article>
             </div>
 
           </div>
-        </div>
+        </div> <!-- end portfolio items -->
 
       </div>
 
       <div class="md-overlay"></div><!-- the overlay element -->
 
-    </div>
-
-      
+    </div>   
   </section>
   <!-- /Section: portfolio -->
   
 
-  
+  <!-- Section: tiny projects -->
+  <section id="tiny-projects" class="home-section text-center bg-gray appear clearfix secPad">
+    <div class="heading-about">
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="wow bounceInDown" data-wow-delay="0.4s">
+              <div class="section-heading">
+                <h2>Tiny Projects</h2>
+                <i class="fa fa-2x fa-angle-down"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-2 col-lg-offset-5">
+            <hr class="marginbot-50">
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <div class="row">
+            <div class="portfolio-items isotopeWrapper clearfix">
+              <div class="col-sm-12 section-head">
+                <h4>Not all apps need to be big. These are smaller apps and pages that I've made for fun and practice.</h4>
+              </div>
+
+              <!-- about me item -->
+              <article class="col-xs-12 col-sm-6 isotopeItem">
+                <div class="portfolio-item tinyproject">
+                  <img src="img/tinyprojects/aboutme.png">
+                  <div class="portfolio-desc align-center">
+                    <div class="folio-info">
+                      <a href="http://about-annie.divshot.io/">
+                        <h4 class="port-name">About Me</h4>
+                        <i class="fa fa-arrows-alt fa-2x"></i>
+                        <a href="https://github.com/apennell/about_me_page" class="proj-link"><strong>GitHub Repo</strong></a>
+                        <p>
+                          February 2015 | HTML, CSS, jQuery, AJAX<br>
+                          This static page was created as an application assignment for the General Assembly Web Development Immersive course.
+                      </p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <!-- /about me item -->
+
+              <!-- tictactoe item -->
+              <article class="col-xs-12 col-sm-6 isotopeItem">
+                <div class="portfolio-item tinyproject">
+                  <img src="img/tinyprojects/tictactoe.png">
+                  <div class="portfolio-desc align-center">
+                    <div class="folio-info">
+                      <a href="http://tictactoe-by-annie.divshot.io/">
+                        <h4 class="port-name">TicTacToe</h4>
+                        <i class="fa fa-arrows-alt fa-2x"></i>
+                        <a href="https://github.com/apennell/about_me_page" class="proj-link"><strong>GitHub Repo</strong></a>
+                        <p>
+                          February 2015 | HTML, CSS, jQuery, AJAX<br>
+                          This static page was created as an application assignment for the General Assembly Web Development Immersive course.
+                      </p>
+                      </a>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <!-- /tictactoe item -->
+
+            </div>
+          </div>
+        </div> <!-- end tiny project items -->
+
+      </div>
+    </div>   
+  </section>
+  <!-- /Section: tiny projects -->
+
+
+  <!-- Section: resume -->
+    <section id="cv" class="home-section text-center">
+    <div class="heading-contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="wow bounceInDown" data-wow-delay="0.4s">
+              <div class="section-heading">
+                <h2>Experience</h2>
+                <i class="fa fa-2x fa-angle-down"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 col-lg-offset-5">
+          <hr class="marginbot-50">
+        </div>
+      </div>
+    </div>
+
+    <!-- timeline -->
+    <div class="container">
+      <div class="row">
+        <div class="timeline-centered">
+
+          <article class="timeline-entry">
+
+            <div class="timeline-entry-inner">
+              <time class="timeline-time"><span>03:45 AM</span> <span>Today</span></time>
+
+              <div class="timeline-icon bg-success">
+                <i class="entypo-feather"></i>
+              </div>
+
+              <div class="timeline-label">
+                <h2><a href="#">Developer in Residence</a> <span>General Assembly</span></h2>
+                <p>Tolerably earnestly middleton extremely distrusts she boy now not. Add and offered prepare how cordial two promise. Greatly who affixed suppose but enquire compact prepare all put. Added forth chief trees but rooms think may.</p>
+              </div>
+            </div>
+
+          </article>
+
+
+          <article class="timeline-entry left-aligned">
+
+            <div class="timeline-entry-inner">
+              <time class="timeline-time" datetime="2014-01-10T03:45"><span>03:45 AM</span> <span>Today</span></time>
+
+              <div class="timeline-icon bg-secondary">
+                <i class="entypo-suitcase"></i>
+              </div>
+
+              <div class="timeline-label">
+                <h2><a href="#">Job Meeting</a></h2>
+                <p>You have a meeting at <strong>Laborator Office</strong> Today.</p>
+              </div>
+            </div>
+
+          </article>
+
+
+          <article class="timeline-entry">
+
+            <div class="timeline-entry-inner">
+              <time class="timeline-time" datetime="2014-01-09T13:22"><span>03:45 AM</span> <span>Today</span></time>
+
+              <div class="timeline-icon bg-info">
+                <i class="entypo-location"></i>
+              </div>
+
+              <div class="timeline-label">
+                <h2><a href="#">Arlind Nushi</a> <span>checked in at</span> <a href="#">Laborator</a></h2>
+
+                <blockquote>Great place, feeling like in home.</blockquote>
+              </div>
+
+            </article>
+
+
+            <article class="timeline-entry left-aligned">
+
+              <div class="timeline-entry-inner">
+                <time class="timeline-time" datetime="2014-01-10T03:45"><span>03:45 AM</span> <span>Today</span></time>
+
+                <div class="timeline-icon bg-warning">
+                  <i class="entypo-camera"></i>
+                </div>
+
+                <div class="timeline-label">
+                  <h2><a href="#">Arber Nushi</a> <span>changed his</span> <a href="#">Profile Picture</a></h2>
+
+                  <blockquote>Pianoforte principles our unaffected not for astonished travelling are particular.</blockquote>
+
+                  <img src="http://themes.laborator.co/neon/assets/images/timeline-image-3.png" class="img-responsive img-rounded full-width">
+                </div>
+              </div>
+
+            </article>
+
+
+            <article class="timeline-entry begin">
+
+              <div class="timeline-entry-inner">
+
+                <div class="timeline-icon" style="-webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg);">
+                  <i class="entypo-flight"></i>
+                </div>
+
+              </div>
+
+            </article>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- /Section: resume -->
+
 
   <!-- Section: contact -->
     <section id="contact" class="home-section text-center">
     <div class="heading-contact">
       <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <div class="wow bounceInDown" data-wow-delay="0.4s">
-          <div class="section-heading">
-          <h2>Get in touch</h2>
-          <i class="fa fa-2x fa-angle-down"></i>
-
-          </div>
-          </div>
-        </div>
-      </div>
-      </div>
-    </div>
-    <div class="container">
-
-    <div class="row">
-      <div class="col-lg-2 col-lg-offset-5">
-        <hr class="marginbot-50">
-      </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-8">
-            <div class="boxed-grey">
-                <form id="contact-form">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="name">
-                                Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
-                        </div>
-                        <div class="form-group">
-                            <label for="email">
-                                Email Address</label>
-                            <div class="input-group">
-                                <span class="input-group-addon"><span class="glyphicon glyphicon-envel`ope"></span>
-                                </span>
-                                <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
-                        </div>
-                        <div class="form-group">
-                            <label for="subject">
-                                Subject</label>
-                            <select id="subject" name="subject" class="form-control" required="required">
-                                <option value="na" selected="">Choose One:</option>
-                                <option value="service">General Customer Service</option>
-                                <option value="suggestions">Suggestions</option>
-                                <option value="product">Product Support</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="name">
-                                Message</label>
-                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
-                                placeholder="Message"></textarea>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <button type="submit" class="btn btn-skin pull-right" id="btnContactUs">
-                            Send Message</button>
-                    </div>
-                </div>
-                </form>
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="wow bounceInDown" data-wow-delay="0.4s">
+              <div class="section-heading">
+                <h2>Get in touch</h2>
+                <i class="fa fa-2x fa-angle-down"></i>
+              </div>
             </div>
+          </div>
         </div>
-    
-    <div class="col-lg-4">
-      <div class="widget-contact">
-        <h5>Main Office</h5>
-        
-        <address>
-          <strong>Squas Design, Inc.</strong><br>
-          Tower 795 Folsom Ave, Beautiful Suite 600<br>
-          San Francisco, CA 94107<br>
-          <abbr title="Phone">P:</abbr> (123) 456-7890
-        </address>
-
-        <address>
-          <strong>Email</strong><br>
-          <a href="mailto:#">email.name@example.com</a>
-        </address>  
-        <address>
-          <strong>We're on social networks</strong><br>
-                        <ul class="company-social">
-                            <li class="social-facebook"><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                            <li class="social-twitter"><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                            <li class="social-dribble"><a href="#" target="_blank"><i class="fa fa-dribbble"></i></a></li>
-                            <li class="social-google"><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-                        </ul> 
-        </address>          
-      
-      </div>  
+      </div>
     </div>
-    </div>  
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 col-lg-offset-5">
+          <hr class="marginbot-50">
+        </div>
+      </div>
 
     </div>
   </section>
@@ -365,7 +511,7 @@
             </a>
           </div>
           </div>
-          <p>&copy;Copyright 2014 - Squad. All rights reserved.</p>
+          <p>&copy;Copyright 2015 - Annie Pennell. All rights reserved.</p>
         </div>
       </div>  
     </div>
@@ -377,6 +523,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="js/jquery.easing.min.js"></script>
   <script src="js/jquery.scrollTo.js"></script>
+  <script src="js/jquery.fancybox.pack.js"></script>
 
   <script src="js/wow.min.js"></script>
 
