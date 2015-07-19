@@ -440,11 +440,16 @@ hr {
 footer {
   text-align: center;
   padding: 50px 0 ;
+  background-color: #FBFAD6;
   
 }
 
 footer p {
-  color: #f8f8f8;
+  color: #666;
+}
+
+footer i {
+  color: #666;
 }
 
 /* ==========================
@@ -506,7 +511,7 @@ Parallax
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #fff;
+    border: 2px solid #666;
     border-radius: 50%;
     font-size: 40px;
     color: #fff;
