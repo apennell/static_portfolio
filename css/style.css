@@ -101,8 +101,19 @@ p.lead {
   font-size: 30px;
 }
 
+.tp-name {
+  font-family: 'Megrim', cursive;
+  font-size: 30px;
+}
+
 .port-desc {
   padding-top: 25px;
+  font-weight: 400;
+}
+
+.github-link {
+  color: #666;
+  font-size: 18px;
   font-weight: 400;
 }
 
@@ -918,8 +929,8 @@ nav#filter a {
 tin
 .portfolio-item .portfolio-desc .folio-info .proj-link a {
     color: #ffffff;
-    font-size: 12px;
-    color: green;
+    font-size: 1px;
+    /*color: green;*/
 }
 
 .page-section.intro {
