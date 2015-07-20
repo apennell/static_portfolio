@@ -1163,6 +1163,11 @@ hr {
 .cv-date {
   margin-bottom: 15px;
   color: #FBFAE6;
+  text-align: center;
+}
+
+.college-body p {
+  text-align: center;
 }
 
 @media (max-width: 767px) {
