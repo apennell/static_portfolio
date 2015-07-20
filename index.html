@@ -101,7 +101,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-10 col-sm-offset-1">
           <div class="wow bounceInUp" data-wow-delay="0.2s">
-            <div class="team boxed-grey">
+            <div class="team boxed-grey silver-bg">
               <div class="inner">
                 <p>
                   After several years in New Orleans working as a <strong><a href="http://www.photography.anniepennell.com/">photographer</a></strong>, photo retoucher, and fine art print specialist, I returned to my roots in the Bay Area and am beginning a career as a full stack web developer. There are so many amazing companies here doing great things and I love the flexibility of industries the programmer skill set allows me to be a part of. I believe being a developer is the best way for me to make a positive contribution to the world. My visual design background gives me a unique perspective and ability that takes my performance to the next level.
@@ -115,7 +115,7 @@
 
         <div class="col-xs-12 col-sm-10 col-sm-offset-1">
           <div class="wow bounceInUp" data-wow-delay="0.2s">
-            <div class="team boxed-grey">
+            <div class="team boxed-grey silver-bg">
               <div class="inner">
                 Still interested in learning more about me? Want to hear some nice things other people have to say? Curious about my early experiments with HTML, CSS, jQuery, and AJAX? Check out this <strong><a href="http://about-annie.divshot.io/">about me</a></strong> page that I made.
               </div>
@@ -157,35 +157,32 @@
               <!-- create modal -->
               <div class="md-modal md-effect-12" id="modal-create">
                 <div class="md-content">
-                  <h1><a href="https://createtoday.herokuapp.com/">Create</a></h1>
+                  <h1><a href="https://createtoday.herokuapp.com/" class="orange-text">Create</a></h1>
                   <div>
-                    <strong><a href="https://createtoday.herokuapp.com/">Visit App</a> | <a href="https://github.com/apennell/create_app">GitHub Repository</a></strong>
+                    <strong><a href="https://createtoday.herokuapp.com/" class="orange-text">Visit App</a> | <a href="https://github.com/apennell/create_app" class="orange-text">GitHub Repository</a></strong>
                     <br>
-                    <p>Created April 2015</p>
+                    <p class="date">Created April 2015</p>
                     <br>
                     <p>
                       Create is a daily art prompt web app built with Node.js, Express, Postgres, and Bootstrap, integrating authentication and authorization. Utilizing Wordnik’s API, a new word appears every day to provide inspiration. Users, called creators, use the prompt to make something in response, which can be posted to the site. All posts ("creations") can be viewed publicly, as well users' public profiles.
                     </p>
                     <p>
                       The MVP simply allows for a written creation (poem, short story, etc.), but the goal is to add an image upload option so that photographers and visual artists can contribute as well. It has authorization and authentication to allow users to post and delete creations. It currently has a one-to-many association with many creations belonging to one user, but I would like to add a prompt model.
-                    </p>
-                    <button class="md-close btn btn-positive">Close me!</button>
+                    </p><br>
+                    <button class="md-close btn btn-positive">Close</button>
                   </div>
                 </div>
               </div>
               <div class="md-overlay"></div>
 
               <article class="col-xs-12 col-sm-4 isotopeItem">
-                <div class="portfolio-item">
+                <div class="portfolio-item md-trigger" data-modal="modal-create">
                   <img src="img/create/create.png">
                   <div class="portfolio-desc align-center">
                     <div class="folio-info">
-                      <!-- <a href="https://createtoday.herokuapp.com/" class="fancybox"> -->
                         <h4 class="port-name">Create</h4>
-                        <!-- <i class="fa fa-arrows-alt fa-2x"></i> -->
-                        <button class="md-trigger btn btn-positive" data-modal="modal-create">More</button>
+                        <button class="md-trigger btn cream-bg" data-modal="modal-create"><i class="fa fa-arrows-alt fa-2x orange-text"></i></button>
                         <h5 class="port-desc">JavaScript, Node.js, Express, PostgreSQL, Wordnik API</h5>
-                      <!-- </a> -->
                     </div>
                   </div>
                 </div>
@@ -196,35 +193,32 @@
               <!-- create modal -->
               <div class="md-modal md-effect-12" id="modal-epoch">
                 <div class="md-content">
-                  <h1><a href="https://epochbank.herokuapp.com/">Epoch</a></h1>
+                  <h1><a href="https://epochbank.herokuapp.com/" class="orange-text">Epoch</a></h1>
                   <div>
-                    <strong><a href="https://epochbank.herokuapp.com/">Visit App</a> | <a href="https://github.com/apennell/timebank">GitHub Repository</a></strong>
+                    <strong><a href="https://epochbank.herokuapp.com/" class="orange-text">Visit App</a> | <a href="https://github.com/apennell/timebank" class="orange-text">GitHub Repository</a></strong>
                     <br>
-                    <p>Created April 2015</p>
+                    <p class="date">Created April 2015</p>
                     <br>
                     <p>
                       Epoch is a time banking web app built with Ruby on Rails, utilizing AJAX, Bootstrap, Devise, and Twilio's API. Epoch was built by myself, James Bradley, Lyn Muldrow, and Steven Gordon. In addition to acting as project manager for three other engineers, my main tasks were authentication and authorization, constructing the User controller and views, and styling.
                     </p>
                     <p>
                       Epoch allows users to receive services using the currency of their time, which is earned by providing other users with their own services. Every hour of work completed is removed from the recipient's account and added to the provider's, which can then be spent getting help from another user. Users sign up for the Epoch web app and act as both a provider and recipient. They list services they can provide as well as services they need. Users can offer to render a service wanted or request that a specific user help them. When a request is made, a text message alert is sent to the the user receiving the request. An exchange page is generated when a request is made and, once accepted, they receive each other's contact information. After service is rendered, this is confirmed on the site and the hour is transferred from the recipient to the provider's time bank. A text message alert is sent to the user at each of the 4 stages of the exchange process--when it is proposed, accepted, delivered, and confirmed. 
-                    </p>
-                    <button class="md-close btn btn-positive">Close me!</button>
+                    </p><br>
+                    <button class="md-close btn btn-positive">Close</button>
                   </div>
                 </div>
               </div>
               <div class="md-overlay"></div>
 
               <article class="col-xs-12 col-sm-4 isotopeItem">
-                <div class="portfolio-item">
+                <div class="portfolio-item md-trigger" data-modal="modal-epoch">
                   <img src="img/epoch/epoch.png">
                   <div class="portfolio-desc align-center">
                     <div class="folio-info">
-                      <!-- <a href="https://createtoday.herokuapp.com/" class="fancybox"> -->
                         <h4 class="port-name">Epoch</h4>
-                        <!-- <i class="fa fa-arrows-alt fa-2x"></i> -->
-                        <button class="md-trigger btn btn-positive" data-modal="modal-epoch">More</button>
+                        <button class="md-trigger btn cream-bg" data-modal="modal-epoch"><i class="fa fa-arrows-alt fa-2x orange-text"></i></button>
                         <h5 class="port-desc">Ruby on Rails, AJAX, Devise, Twilio API</h5>
-                      <!-- </a> -->
                     </div>
                   </div>
                 </div>
@@ -237,17 +231,17 @@
                 <div class="md-content">
                   <h1>MindKit</h1>
                   <div>
-                    <strong><a href="https://github.com/apennell/mindKit">GitHub Repository</a></strong>
+                    <strong><a href="https://github.com/apennell/mindKit" class="orange-text">GitHub Repository</a></strong>
                       <br>
-                      <p>Created June 2015</p>
+                      <p class="date">Created June 2015</p>
                       <br>
                       <p>
                         MindKit is a hybrid mobile app that acts as a toolkit for combating depression on a daily basis, largely through the use of cognitive behavioral therapy (CBT). It is built with Ionic using AngularJS and the database is connected with a NodeJS, Express, and PostgreSQL backend API. It is currently in beta in the Ionic View app, but once completed will be available for iOS and Android.
                       </p>
                       <p>
                         The initial MVP is the thought log, in which Ionic-Wizard takes the user through a series of questions typical of a CBT automatic negative thought log to analyze a situation and their resulting thoughts and emotions. In the final step, the user is presented with their initial emotions and the strengths at which they reported feeling them and is asked to re-rate the emotions after going through the thought log. The differences between the initial and new emotions are averaged out and the user is shown the percentage of their improvement on this situation. They are also shown a lifetime improvement average and a graph of each entry's improvement on their progress page to see how the exercises are helping.
-                      </p>
-                    <button class="md-close btn btn-positive">Close me!</button>
+                      </p><br>
+                    <button class="md-close btn btn-positive">Close</button>
                   </div>
                 </div>
               </div>
@@ -255,16 +249,13 @@
               <div class="md-overlay"></div>
 
               <article class="col-xs-12 col-sm-4 isotopeItem">
-                <div class="portfolio-item">
+                <div class="portfolio-item md-trigger" data-modal="modal-mindkit">
                   <img src="img/MindKit/MindKit.png">
                   <div class="portfolio-desc align-center">
                     <div class="folio-info">
-                      <!-- <a href="https://MindKittoday.herokuapp.com/" class="fancybox"> -->
                         <h4 class="port-name">MindKit</h4>
-                        <!-- <i class="fa fa-arrows-alt fa-2x"></i> -->
-                        <button class="md-trigger btn btn-positive" data-modal="modal-mindkit">More</button>
+                        <button class="md-trigger btn cream-bg" data-modal="modal-mindkit"><i class="fa fa-arrows-alt fa-2x orange-text"></i></button>
                         <h5 class="port-desc">Ionic, AngularJS, Node.js, Express, PostgreSQL</h5>
-                      <!-- </a> -->
                     </div>
                   </div>
                 </div>
@@ -315,7 +306,7 @@
               <article class="col-xs-12 col-sm-6 isotopeItem">
                 <div class="portfolio-item tinyproject">
                   <img src="img/tinyprojects/aboutme.png">
-                  <div class="portfolio-desc align-center">
+                  <div class="portfolio-desc tp-desc">
                     <div class="folio-info">
                       <a href="http://about-annie.divshot.io/">
                         <h4 class="port-name">About Me</h4>
@@ -336,7 +327,7 @@
               <article class="col-xs-12 col-sm-6 isotopeItem">
                 <div class="portfolio-item tinyproject">
                   <img src="img/tinyprojects/tictactoe.png">
-                  <div class="portfolio-desc align-center">
+                  <div class="portfolio-desc tp-desc">
                     <div class="folio-info">
                       <a href="http://tictactoe-by-annie.divshot.io/">
                         <h4 class="port-name">TicTacToe</h4>

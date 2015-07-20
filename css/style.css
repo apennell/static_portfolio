@@ -50,6 +50,10 @@ silver: #E4EBE9*/
   background-color: #E4EBE9;
 }
 
+.orange-text {
+  color: #EB593C;
+}
+
 body {
     width: 100%;
     height: 100%;
@@ -848,12 +852,28 @@ nav#filter a {
     background: rgba(0, 0, 0, 0.64);
 }
 
+.portfolio-item:hover .tp-desc {
+    padding-top: 10%;
+    height: 100%;
+    transition: all 200ms ease-in-out 0s;
+    opacity: 1;
+    background: rgba(152,239,199, 0.8);
+}
+
 .portfolio-item:hover .portfolio-desc {
-    padding-top: 20%;
+    padding-top: 10%;
     height: 100%;
     transition: all 200ms ease-in-out 0s;
     opacity: 1;
     background: rgba(247,203,33, 0.8);
+}
+
+.portfolio-item:hover .tp-desc {
+    padding-top: 10%;
+    height: 100%;
+    transition: all 200ms ease-in-out 0s;
+    opacity: 1;
+    background: rgba(152,239,199, 0.8);
 }
 
 .portfolio-item .portfolio-desc a {
@@ -882,18 +902,20 @@ nav#filter a {
     /*top: 5px;*/
 }
 
+/* portfolio item text in hover */
 .portfolio-item .portfolio-desc .folio-info h5 {
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     text-align: center;
-    font-weight: bold;
+    /*font-weight: bold;*/
     font-size: 1.4em;
 }
 
-.portfolio-item .portfolio-desc .folio-info p {
-    color: #ffffff;
-    font-size: 12px;
+.portfolio-item .portfolio-desc .folio-info h4 {
+    /*color: #ffffff;*/
+    font-size: 40px;
+    /*font-weight: bold;*/
 }
-
+tin
 .portfolio-item .portfolio-desc .folio-info .proj-link a {
     color: #ffffff;
     font-size: 12px;
