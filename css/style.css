@@ -1002,6 +1002,25 @@ tin
     /*color: green;*/
 }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+  .portfolio-item:hover .portfolio-desc {
+    padding-top: 0;
+  }
+
+  div #db {
+    min-height: 340px;
+  }
+
+  div #languages {
+    min-height: 340px;
+  }
+
+  div #frameworks {
+    min-height: 340px;
+  }
+
+}
+
 .page-section.intro {
     min-height: 600px;
 }
