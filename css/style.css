@@ -991,20 +991,20 @@ nav#filter a {
     background: rgba(0, 0, 0, 0.64);
 }
 
-.portfolio-item:hover .tp-desc {
-    padding-top: 10%;
-    height: 100%;
-    transition: all 200ms ease-in-out 0s;
-    opacity: 1;
-    background: rgba(152,239,199, 0.8);
-}
-
 .portfolio-item:hover .portfolio-desc {
     padding-top: 10%;
     height: 100%;
     transition: all 200ms ease-in-out 0s;
     opacity: 1;
     background: rgba(247,203,33, 0.8);
+}
+
+.portfolio-item:hover .tp-desc {
+    padding-top: 10%;
+    height: 100%;
+    transition: all 200ms ease-in-out 0s;
+    opacity: 1;
+    background: rgba(152,239,199, 0.8);
 }
 
 .portfolio-item .portfolio-desc a {
