@@ -750,7 +750,7 @@ Parallax
   }
 }
 
-@media(min-width:767px) {
+@media(min-width:768px) {
 
     .navbar {
         padding: 20px 0;
@@ -789,7 +789,7 @@ Parallax
 }
 
 /* for phone styling */
-@media (max-width:768px) {
+@media (max-width:767px) {
   
   .team.boxed-grey {
     margin-bottom: 30px;
@@ -800,7 +800,7 @@ Parallax
   }
 
   #hello {
-    padding: 20px;
+    padding: 5px;
     border: 5px solid white;
     display: inline;
     font-size: 40px;
@@ -829,7 +829,66 @@ Parallax
   .navbar {
     border-bottom: none;
   }
+
+/*  .portfolio-item:hover .tp-desc {
+      padding-top: 10%;
+      height: 100%;
+      transition: all 200ms ease-in-out 0s;
+      opacity: 1;
+      background: rgba(152,239,199, 0.8);
+  }
+*/
+/*  .portfolio-item:hover .portfolio-desc {
+      padding-top: 0;
+  }*/
+
+/*  .portfolio-item .portfolio-desc a {
+      color: #fff;
+      text-align: center;
+      display: block;
+  }*/
+
+  .portfolio-item .portfolio-desc .folio-info {
+      top: -40px;
+      padding: 30px;
+      height: 0;
+      opacity: 0;
+      position: relative;
+  }
+
+/*  .portfolio-item:hover .folio-info {
+      height: 100%;
+      opacity: 1;
+      transition: all 500ms ease-in-out 0s;
+  }*/
+
+  /* portfolio item text in hover */
+  .portfolio-item .portfolio-desc .folio-info h5 {
+      text-transform: uppercase;
+      text-align: center;
+      /*font-weight: bold;*/
+      font-size: 1.4em;
+  }
+
+  .portfolio-item .portfolio-desc .folio-info h4 {
+      /*color: #ffffff;*/
+      font-size: 20px;
+      /*margin: 0 0 0 5px;*/
+      /*font-weight: bold;*/
+  }
+
+/*  .portfolio-item .portfolio-desc .folio-info .proj-link a {
+      color: #ffffff;
+      font-size: 1px;
+  }*/
   
+}
+
+/* iphone 5 and smaller */
+@media (max-width: 320px) {
+  .section-heading h2 {
+    font-size: 34px;
+  }
 }
 
 @media (max-width:480px) {
@@ -946,14 +1005,6 @@ nav#filter a {
     transition: all 200ms ease-in-out 0s;
     opacity: 1;
     background: rgba(247,203,33, 0.8);
-}
-
-.portfolio-item:hover .tp-desc {
-    padding-top: 10%;
-    height: 100%;
-    transition: all 200ms ease-in-out 0s;
-    opacity: 1;
-    background: rgba(152,239,199, 0.8);
 }
 
 .portfolio-item .portfolio-desc a {
