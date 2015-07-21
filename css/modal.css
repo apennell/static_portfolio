@@ -115,6 +115,10 @@ perspective effects (not including the modals and the overlay).
   font-size: 0.8em;
 }
 
+.modal-show {
+  display: none;
+}
+
 /* Individual modal styles with animations/transitions */
 
 
@@ -145,4 +149,66 @@ perspective effects (not including the modals and the overlay).
   -ms-transform: scale(1);
   transform: scale(1);
   opacity: 1;
+}
+
+/* === for phone/xs styling === */
+
+@media (max-width:768px) {
+  .md-content > div p {
+    /*margin: 0;*/
+    /*padding: 10px 0;*/
+    font-size: medium;
+  }
+
+  .md-content > div {
+    padding: 0;
+    /*margin: 0;*/
+    font-weight: 300;
+    /*font-size: 1.15em;*/
+  }
+
+  .md-content > h1 {
+    font-weight: 700;
+    font-size: 2.5em;
+  }
+
+  .modal-hide {
+    display: none;
+  }
+
+  .modal-show {
+    display: block;
+  }
+
+}
+
+/* === for tablet/small styling === */
+
+@media (max-width:992px) {
+  .md-content > div p {
+    /*margin: 0;*/
+    /*padding: 10px 0;*/
+    font-size: medium;
+  }
+
+  .md-content > div {
+    padding: 0;
+    /*margin: 0;*/
+    font-weight: 300;
+    /*font-size: 1.15em;*/
+  }
+
+  .md-content > h1 {
+    font-weight: 700;
+    font-size: 2.5em;
+  }
+
+  .modal-hide {
+    display: none;
+  }
+
+  .modal-show {
+    display: block;
+  }
+
 }

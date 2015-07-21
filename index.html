@@ -163,11 +163,10 @@
                     <strong><a href="https://createtoday.herokuapp.com/" class="orange-text">Visit App</a> | <a href="https://github.com/apennell/create_app" class="orange-text">GitHub Repository</a></strong>
                     <br>
                     <p class="date">Created April 2015</p>
-                    <br>
                     <p>
                       Create is a daily art prompt web app built with Node.js, Express, Postgres, and Bootstrap, integrating authentication and authorization. Utilizing Wordnik’s API, a new word appears every day to provide inspiration. Users, called creators, use the prompt to make something in response, which can be posted to the site. All posts ("creations") can be viewed publicly, as well users' public profiles.
                     </p>
-                    <p>
+                    <p class="modal-hide">
                       The MVP simply allows for a written creation (poem, short story, etc.), but the goal is to add an image upload option so that photographers and visual artists can contribute as well. It has authorization and authentication to allow users to post and delete creations. It currently has a one-to-many association with many creations belonging to one user, but I would like to add a prompt model.
                     </p><br>
                     <button class="md-close btn btn-positive">Close</button>
@@ -200,11 +199,14 @@
                     <br>
                     <p class="date">Created April 2015</p>
                     <br>
-                    <p>
+                    <p class="modal-hide">
                       Epoch is a time banking web app built with Ruby on Rails, utilizing AJAX, Bootstrap, Devise, and Twilio's API. Epoch was built by myself, James Bradley, Lyn Muldrow, and Steven Gordon. In addition to acting as project manager for three other engineers, my main tasks were authentication and authorization, constructing the User controller and views, and styling.
                     </p>
-                    <p>
-                      Epoch allows users to receive services using the currency of their time, which is earned by providing other users with their own services. Every hour of work completed is removed from the recipient's account and added to the provider's, which can then be spent getting help from another user. Users sign up for the Epoch web app and act as both a provider and recipient. They list services they can provide as well as services they need. Users can offer to render a service wanted or request that a specific user help them. When a request is made, a text message alert is sent to the the user receiving the request. An exchange page is generated when a request is made and, once accepted, they receive each other's contact information. After service is rendered, this is confirmed on the site and the hour is transferred from the recipient to the provider's time bank. A text message alert is sent to the user at each of the 4 stages of the exchange process--when it is proposed, accepted, delivered, and confirmed. 
+                    <p class="modal-hide">
+                      Epoch allows users to receive services using the currency of their time, which is earned by providing other users with their own services. Every hour of work completed is removed from the recipient's account and added to the provider's, which can then be spent getting help from another user. Users can list services they can provide as well as services they need. When a request is made, a text message alert is sent to the the user receiving the request. An exchange page is generated when a request is made and, once accepted, they receive each other's contact information. After service is rendered, this is confirmed on the site and the hour is transferred from the recipient to the provider's time bank. A text message alert is sent to the user at each of the 4 stages of the exchange process--when it is proposed, accepted, delivered, and confirmed. 
+                    </p>
+                    <p class="modal-show">
+                      Epoch is a time banking web app I built with 3 other engineers using Ruby on Rails, utilizing AJAX, Bootstrap, Devise, and Twilio's API. Epoch allows users to receive services using the currency of their time, which is earned by providing other users with their own services. Every hour of work completed is removed from the recipient's account and added to the provider's, which can then be spent getting help from another user. My main tasks on the team were authentication and authorization, constructing the User controller and views, and styling.
                     </p><br>
                     <button class="md-close btn btn-positive">Close</button>
                   </div>
@@ -236,11 +238,14 @@
                       <br>
                       <p class="date">Created June 2015</p>
                       <br>
-                      <p>
+                      <p class="modal-hide">
                         MindKit is a hybrid mobile app that acts as a toolkit for combating depression on a daily basis, largely through the use of cognitive behavioral therapy (CBT). It is built with Ionic using AngularJS and the database is connected with a NodeJS, Express, and PostgreSQL backend API. It is currently in beta in the Ionic View app, but once completed will be available for iOS and Android.
                       </p>
-                      <p>
+                      <p class="modal-hide">
                         The initial MVP is the thought log, in which Ionic-Wizard takes the user through a series of questions typical of a CBT automatic negative thought log to analyze a situation and their resulting thoughts and emotions. In the final step, the user is presented with their initial emotions and the strengths at which they reported feeling them and is asked to re-rate the emotions after going through the thought log. The differences between the initial and new emotions are averaged out and the user is shown the percentage of their improvement on this situation. They are also shown a lifetime improvement average and a graph of each entry's improvement on their progress page to see how the exercises are helping.
+                      </p>
+                      <p class="modal-show">
+                        MindKit is a hybrid mobile app that acts as a toolkit for combating depression on a daily basis, largely through the use of cognitive behavioral therapy (CBT). It is built with Ionic using AngularJS and the database is connected with a NodeJS, Express, and PostgreSQL backend API. It is currently in beta in the Ionic View app. The initial MVP is the thought log, in which Ionic-Wizard takes the user through a series of questions typical of a CBT automatic negative thought log to analyze a situation and their resulting thoughts and emotions, then calculating the change in feelings after completing the log.
                       </p><br>
                     <button class="md-close btn btn-positive">Close</button>
                   </div>
