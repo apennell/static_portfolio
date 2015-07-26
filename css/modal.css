@@ -82,7 +82,7 @@ perspective effects (not including the modals and the overlay).
 }
 
 .md-content > div {
-  padding: 15px 40px 30px;
+  padding: 15px 10px 30px;
   margin: 0;
   font-weight: 300;
   font-size: 1.15em;
@@ -98,15 +98,6 @@ perspective effects (not including the modals and the overlay).
 .md-content .date {
   text-align: center;
   font-size: 16px;
-}
-
-.md-content > div ul {
-  margin: 0;
-  padding: 0 0 30px 20px;
-}
-
-.md-content > div ul li {
-  padding: 5px 0;
 }
 
 .md-content button {
