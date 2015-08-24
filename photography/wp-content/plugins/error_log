@@ -1,0 +1,4 @@
+[27-Apr-2015 06:39:00 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home6/anniepen/public_html/wp-content/plugins/hello.php on line 60
+[09-May-2015 19:22:45 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home6/anniepen/public_html/wp-content/plugins/hello.php on line 60
+[23-Jun-2015 19:46:52 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home6/anniepen/public_html/wp-content/plugins/hello.php on line 60
+[16-Jul-2015 05:06:06 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home6/anniepen/public_html/wp-content/plugins/hello.php on line 60

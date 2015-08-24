@@ -1,0 +1,125 @@
+/* ----------------------------------- */
+/*         Nice Colors
+ */
+/* line 25, sass/ie.sass */
+.horizontal-scroll #page h1, .horizontal-scroll #page .alpha {
+  font-size: 31.5px; }
+/* line 28, sass/ie.sass */
+.horizontal-scroll #page h2, .horizontal-scroll #page .beta {
+  font-size: 27px; }
+/* line 31, sass/ie.sass */
+.horizontal-scroll #page h3, .horizontal-scroll #page .gamma {
+  font-size: 18px; }
+/* line 34, sass/ie.sass */
+.horizontal-scroll #page h4, .horizontal-scroll #page .delta {
+  font-size: 16.5px; }
+/* line 37, sass/ie.sass */
+.horizontal-scroll #page h5, .horizontal-scroll #page .epsilon {
+  font-size: 15px; }
+/* line 40, sass/ie.sass */
+.horizontal-scroll #page h6, .horizontal-scroll #page .zeta {
+  font-size: 13.5px; }
+/* line 44, sass/ie.sass */
+#page .vertical-title {
+  position: relative;
+  right: 0;
+  font-size: 48px;
+  font-size: 3rem;
+  line-height: 1.06667;
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); }
+/* line 50, sass/ie.sass */
+#page .container {
+  padding: 12px 0 0;
+  width: 94%; }
+/* line 54, sass/ie.sass */
+#page .portable-show {
+  display: block; }
+/* line 57, sass/ie.sass */
+#page .portable-hide {
+  display: none; }
+/* line 64, sass/ie.sass */
+#page #ajax-popup {
+  top: 68.75px; }
+/* line 66, sass/ie.sass */
+#page .site-header {
+  height: 43.75px; }
+/* line 69, sass/ie.sass */
+#page #container {
+  padding-top: 43.75px; }
+/* line 72, sass/ie.sass */
+#page .site-title {
+  font-size: 28px;
+  font-size: 1.75rem;
+  line-height: 1.82857;
+  line-height: 1.5; }
+  /* line 75, sass/ie.sass */
+  #page .site-title .site-logo {
+    margin-top: 0;
+    max-height: 40px; }
+/* line 80, sass/ie.sass */
+#page .sf-menu > .menu-item {
+  margin-left: 12px;
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 3; }
+/* line 85, sass/ie.sass */
+#page .sf-menu .sub-menu {
+  padding: 0;
+  left: 0; }
+  /* line 90, sass/ie.sass */
+  #page .sf-menu .sub-menu .menu-item {
+    width: 100%;
+    margin: 0;
+    display: block; }
+/* line 98, sass/ie.sass */
+#page .portable-center {
+  display: table;
+  float: none;
+  margin-right: auto;
+  margin-left: auto; }
+/* line 103, sass/ie.sass */
+#page .alignleft img, #page .alignright img, #page .aligncenter img, #page .wp-caption img, #page embed img {
+  max-width: 100%;
+  margin: 0 auto;
+  height: auto; }
+/* line 113, sass/ie.sass */
+#page .entry-date {
+  margin-top: 44px; }
+/* line 116, sass/ie.sass */
+#page .entry-header {
+  margin-bottom: 6px;
+  padding-bottom: 6px; }
+/* line 120, sass/ie.sass */
+#page #content .entry-header--aside {
+  max-width: 80px; }
+/* line 123, sass/ie.sass */
+#page .entry-date {
+  margin-top: 0; }
+  /* line 125, sass/ie.sass */
+  .box #page .entry-date {
+    display: block; }
+/* line 127, sass/ie.sass */
+#page .entry-title {
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 1.06667;
+  line-height: 1;
+  margin-top: 0;
+  padding-bottom: 12px; }
+/* line 132, sass/ie.sass */
+#page .entry-meta {
+  margin-top: 12px; }
+/* line 134, sass/ie.sass */
+#page .widget {
+  margin: 0 auto; }
+/* line 137, sass/ie.sass */
+#page .gallery-item {
+  min-width: 50% !important;
+  margin: 0 auto;
+  display: block; }
+/* line 142, sass/ie.sass */
+#page .site-footer {
+  max-height: 75%; }
+/* line 145, sass/ie.sass */
+#page .footer-content {
+  overflow: scroll; }

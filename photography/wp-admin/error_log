@@ -1,0 +1,3 @@
+[13-Feb-2014 00:17:29 America/Denver] PHP Warning:  POST Content-Length of 10522666 bytes exceeds the limit of 10485760 bytes in Unknown on line 0
+[13-Feb-2014 00:17:54 America/Denver] PHP Warning:  POST Content-Length of 10522666 bytes exceeds the limit of 10485760 bytes in Unknown on line 0
+[24-May-2015 05:50:45 UTC] WordPress database error Can't DROP 'slug'; check that column/key exists for query ALTER TABLE dgh_terms DROP INDEX slug, ADD INDEX slug(slug(191)) made by wp_upgrade, pre_schema_upgrade
