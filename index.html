@@ -41,10 +41,10 @@
         <ul class="nav navbar-nav">
           <li><a href="#about">About</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#tiny-projects">Tiny Projects</a></li>
+          <!-- <li><a href="#tiny-projects">Tiny Projects</a></li> -->
           <li><a href="#skills">Skills</a></li>
           <li><a href="#cv">Experience</a></li>
-          <li><a href="http://syntacticsugar.anniepennell.com/">Blog</a></li>
+          <!-- <li><a href="http://syntacticsugar.anniepennell.com/">Blog</a></li> -->
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -67,8 +67,8 @@
       <a href="https://github.com/apennell"><i class="fa fa-github fa-2x"></i></a>
       &nbsp; &nbsp;
       <a href="https://www.linkedin.com/in/anniepennell"><i class="fa fa-linkedin fa-2x"></i></a>
-      &nbsp; &nbsp;
-      <a href="http://syntacticsugar.anniepennell.com/"><i class="fa fa-wordpress fa-2x"></i></a>
+      <!-- &nbsp; &nbsp; -->
+      <!-- <a href="http://syntacticsugar.anniepennell.com/"><i class="fa fa-wordpress fa-2x"></i></a> -->
       &nbsp; &nbsp;
       <a href="https://angel.co/annie-pennell"><i class="fa fa-angellist fa-2x"></i></a>
       &nbsp; &nbsp;
@@ -108,16 +108,17 @@
             <div class="team boxed-grey silver-bg">
               <div class="inner">
                 <p>
-                  After several years in New Orleans working as a <strong><a href="http://www.photography.anniepennell.com/">photographer</a></strong>, photo retoucher, and fine art print specialist, I returned to my roots in the Bay Area and began a career as a web developer. There are so many amazing companies here doing great things and I love the flexibility of industries the programmer skill set allows me to be a part of. I believe being a developer is the best way for me to make a positive contribution to the world. My visual design background gives me a unique perspective and ability that takes my performance to the next level.
-                  <br><br>
-                  I am currently working on my PHP and React chops as a software engineer at The History Project, a startup in Oakland with a web app that serves as a digital time capsule and story-telling platform. On an engineering team of four, I'm able to make a big impact and share ideas that are often used. My focus is on the frontend, ensuring the site appears just as it was designed, but I work across the full stack.
+                  After several years in New Orleans working as a <strong><a href="http://www.photography.anniepennell.com/">photographer</a></strong>, photo retoucher, and fine art print specialist, I returned to my roots in the Bay Area and began a career as a web developer. My visual design background gives me a unique perspective and ability that takes my performance to the next level. There are so many amazing companies here doing great things and I love the flexibility of industries that the programmer skill set allows me to be a part of. I believe being a developer is the best way for me to make a positive contribution to the world.
+                </p>
+                <p>
+                  When I began coding, I learned across the full stack, including Ruby on Rails and Node.js, and I completed several small projects from back to front in my early days. I am currently working on my React chops as a software engineer at The History Project, a startup in Oakland with a web app that serves as a digital time capsule and story-telling platform. On an engineering team of four, I'm able to make a big impact and share ideas that are often used. My focus is on the frontend, ensuring the site appears just as it was designed, but I work across the full stack. I love pixels and I always put each and every one exactly where it belongs.
                 </p>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+<!--         <div class="col-xs-12 col-sm-10 col-sm-offset-1">
           <div class="wow bounceInUp" data-wow-delay="0.2s">
             <div class="team boxed-grey silver-bg">
               <div class="inner">
@@ -125,7 +126,8 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
+
       </div>    
     </div>
   </section>
@@ -157,6 +159,45 @@
           <div class="row">
             <div class="portfolio-items isotopeWrapper clearfix">
               
+              <!-- thp portfolio item -->
+              <!-- thp modal -->
+              <div class="md-modal md-effect-12" id="modal-thp">
+                <div class="md-content">
+                  <h1><a href="https://thehistoryproject.com/" class="orange-text">The History Project</a></h1>
+                  <div>
+                    <strong><a href="https://thehistoryproject.com/" class="orange-text">Visit App</a></strong>
+                    <br>
+                    <p class="date">Joined September 2015</p>
+                    <p class="modal-show">
+                      The History Project empowers families and organizations to connect memories across media to build experiential stories that transcend generations. Our set of online and mobile tools allows users to intelligently collect, beautifully curate and delightfully collaborate in building their personal life stories.
+                    </p>
+                    <p class="modal-hide">
+                      The History Project is built with Laravel and PHP and we later integrated React. The backend utilized mySQL and we implement many tools and libraries, including Sass, Bootstrap, and jQuery. We utilize many APIs, including Facebook, Google Drive, Gmail, Dropbox, and Instagram.
+                    </p>
+                    <p class="modal-show">
+                      I joined the team within the first year as the fourth engineer as V2 was getting ready to launch. I often touch the backend but focus on the front and work closely with the design team. Additionally, I am diving into Xcode to maintain our mobile iOS app. 
+                    </p>
+                    <br>
+                    <button class="md-close btn btn-positive">Close</button>
+                  </div>
+                </div>
+              </div>
+              <div class="md-overlay"></div>
+
+              <article class="col-md-6 isotopeItem">
+                <div class="portfolio-item md-trigger" data-modal="modal-thp">
+                  <img src="img/thp/thp.png">
+                  <div class="portfolio-desc align-center">
+                    <div class="folio-info">
+                        <h4 class="port-name">The History Project</h4>
+                        <button class="md-trigger btn cream-bg" data-modal="modal-create"><i class="fa fa-arrows-alt fa-2x orange-text"></i></button>
+                        <h5 class="port-desc modal-hide">React.js, JavaScript, jQuery, PHP, Laravel, MySQL</h5>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <!-- /thp portfolio item -->
+
               <!-- create portfolio item -->
               <!-- create modal -->
               <div class="md-modal md-effect-12" id="modal-create">
@@ -182,7 +223,7 @@
               </div>
               <div class="md-overlay"></div>
 
-              <article class="col-md-4 isotopeItem">
+              <article class="col-md-6 isotopeItem">
                 <div class="portfolio-item md-trigger" data-modal="modal-create">
                   <img src="img/create/create.png">
                   <div class="portfolio-desc align-center">
@@ -221,7 +262,7 @@
               </div>
               <div class="md-overlay"></div>
 
-              <article class="col-md-4 isotopeItem">
+              <article class="col-md-6 isotopeItem">
                 <div class="portfolio-item md-trigger" data-modal="modal-epoch">
                   <img src="img/epoch/epoch.png">
                   <div class="portfolio-desc align-center">
@@ -260,7 +301,7 @@
 
               <div class="md-overlay"></div>
 
-              <article class="col-md-4 isotopeItem">
+              <article class="col-md-6 isotopeItem">
                 <div class="portfolio-item md-trigger" data-modal="modal-mindkit">
                   <img src="img/mindkit/mindkit.png">
                   <div class="portfolio-desc align-center">
@@ -287,7 +328,7 @@
   
 
   <!-- Section: tiny projects -->
-  <section id="tiny-projects" class="home-section text-center silver-bg appear clearfix secPad">
+<!--   <section id="tiny-projects" class="home-section text-center silver-bg appear clearfix secPad">
     <div class="heading-about">
       <div class="container">
         
@@ -312,10 +353,10 @@
             <div class="portfolio-items isotopeWrapper clearfix">
               <div class="col-sm-12 section-head">
                 <h4>Not all apps need to be big. These are smaller apps and pages that I've made for fun and practice. More to come!</h4>
-              </div>
+              </div> -->
 
               <!-- about me item -->
-              <article class="col-xs-12 col-sm-6 isotopeItem">
+<!--               <article class="col-xs-12 col-sm-6 isotopeItem">
                 <div class="portfolio-item tinyproject">
                   <img src="img/tinyprojects/aboutme.png">
                   <div class="tp-desc portfolio-desc">
@@ -334,11 +375,11 @@
                     </div>
                   </div>
                 </div>
-              </article>
+              </article> -->
               <!-- /about me item -->
 
               <!-- tictactoe item -->
-              <article class="col-xs-12 col-sm-6 isotopeItem">
+<!--               <article class="col-xs-12 col-sm-6 isotopeItem">
                 <div class="portfolio-item tinyproject">
                   <img src="img/tinyprojects/tictactoe.png">
                   <div class="portfolio-desc tp-desc">
@@ -358,16 +399,16 @@
                     </div>
                   </div>
                 </div>
-              </article>
+              </article> -->
               <!-- /tictactoe item -->
 
-            </div>
+<!--             </div>
           </div>
-        </div> <!-- end tiny project items -->
-
+        </div>  --><!-- end tiny project items -->
+<!-- 
       </div>
     </div>   
-  </section>
+  </section> -->
   <!-- /Section: tiny projects -->
 
 
@@ -404,12 +445,11 @@
                     <div class="skills">
                       <p>
                         JavaScript<br>
-                        Ruby<br>
-                        PHP<br>
                         HTML<br>
                         CSS<br>
-                        Sass
-<!--                         <br class="modal-hide"><br class="modal-hide"><br class="modal-hide"> -->
+                        Sass<br>
+                        Ruby<br>
+                        PHP
                       </p>
                     </div>
                   </div>
@@ -424,11 +464,11 @@
                     <h3>Frameworks</h3>
                     <div class="skills">
                       <p>
+                        Laravel<br>
                         Node.js<br>
                         Express.js<br>
-                        Rails<br>
-                        Laravel
-                        <br class="modal-hide"><br class="modal-hide"><br class="modal-hide">
+                        Rails
+
                       </p>
                     </div>
                   </div>
@@ -447,7 +487,7 @@
                         PostgreSQL<br>
                         MySQL<br>
                         Sequelize
-                        <br class="modal-hide"><br class="modal-hide"><br class="modal-hide">
+
                       </p>
                     </div>
                   </div>
@@ -462,8 +502,8 @@
                     <h3>Other</h3>
                     <div class="skills">
                       <p>
+                        React<br>
                         jQuery<br>
-                        Handlebars.js<br>
                         Bootstrap<br>
                         Git/GitHub<br>
                         Wordpress + Joomla<br>
@@ -518,7 +558,7 @@
               <p class="text-muted cv-date">September 2015 - Present</p>
             </div>
             <div class="timeline-body">
-              <p>Work with a small team of engineers and design lead to build a web app for collaboratively telling interactive stories using various media. Focused on frontend development and overhauled existing site to be mobile responsive. Stack includes PHP, Laravel, React, HTML, CSS, Sass, JavaScript, jQuery, and MySQL. </p>
+              <p>Work with a small team of engineers and design lead to build a web app for collaboratively telling interactive stories using various media. Focused on frontend development and overhauled existing site to be mobile responsive. Stack includes React, PHP, Laravel, React, HTML, CSS, Sass, JavaScript, jQuery, and MySQL. Currently learning Xcode for native iOS app.</p>
             </div>
           </div>
         </li>
@@ -531,7 +571,7 @@
               <p class="text-muted cv-date">June - September 2015</p>
             </div>
             <div class="timeline-body">
-              <p>Advise and tutor students in full stack web development immersive course, including helping to build fluency in JavaScript, Node.js, and Ruby on Rails, among other frameworks and tools, demonstrating programming best practices, debugging, and supporting instructors.</p>
+              <p>Advise and tutor students in full stack web development immersive course, including helping to learn course material, demonstrating programming best practices, debugging, and supporting instructors.</p>
             </div>
           </div>
         </li>
@@ -550,16 +590,6 @@
         </li>
 
         <li>
-          <div class="timeline-badge"><i class="fa fa-cart-plus"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title cv-title">Operations Associate<span> / Twice</span></h4>
-              <p class="text-muted cv-date">January - March 2015</strong></p>
-            </div>
-          </div>
-        </li>
-
-        <li class="timeline-inverted">
           <div class="timeline-badge"><i class="fa fa-picture-o"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
@@ -569,7 +599,7 @@
           </div>
         </li>
 
-        <li>
+        <li class="timeline-inverted">
           <div class="timeline-badge"><i class="fa fa-camera"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
@@ -579,7 +609,7 @@
           </div>
         </li>
 
-        <li class="timeline-inverted">
+        <li>
           <div class="timeline-badge"><i class="fa fa-tags"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
@@ -589,7 +619,7 @@
           </div>
         </li>
 
-        <li>
+        <li class="timeline-inverted">
           <div class="timeline-badge"><i class="fa fa-graduation-cap"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
@@ -660,13 +690,13 @@
                 &nbsp; &nbsp; &nbsp;
                 <a href="https://www.linkedin.com/in/anniepennell"><i class="fa fa-linkedin fa-2x"></i></a>
                 &nbsp; &nbsp; &nbsp;
-                <a href="http://syntacticsugar.anniepennell.com/"><i class="fa fa-wordpress fa-2x"></i></a>
-                &nbsp; &nbsp; &nbsp;
+<!--                 <a href="http://syntacticsugar.anniepennell.com/"><i class="fa fa-wordpress fa-2x"></i></a>
+                &nbsp; &nbsp; &nbsp; -->
                 <a href="http://photography.anniepennell.com/"><i class="fa fa-camera-retro fa-2x"></i></a>
                 &nbsp; &nbsp; &nbsp;
                 <a href="https://angel.co/annie-pennell"><i class="fa fa-angellist fa-2x"></i></a>
                 &nbsp; &nbsp; &nbsp;
-                <a href="https://instagram.com/apenne/"><i class="fa fa-instagram fa-2x"></i></a>
+                <a href="https://instagram.com/syntactic_sugar/"><i class="fa fa-instagram fa-2x"></i></a>
               </div>
             </div>
           </div>
@@ -688,7 +718,7 @@
             </a>
           </div>
           </div>
-          <p>&copy;Copyright 2015 - Annie Pennell</p>
+          <p>&copy;Copyright 2016 - Annie Pennell</p>
         </div>
       </div>  
     </div>

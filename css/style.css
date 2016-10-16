@@ -386,6 +386,7 @@ hr {
 
 .skills p {
   font-size: 20px;
+  text-align: left;
 }
 
 .section-heading h2 {
@@ -1082,6 +1083,15 @@ div #frameworks {
     min-height: 340px;
   }
 
+}
+
+@media (max-width: 991px){
+  div #db{
+    min-height: 100%;
+  }
+  div #frameworks{
+    min-height: 100%;
+  }
 }
 
 .page-section.intro {
