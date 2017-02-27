@@ -387,6 +387,11 @@ hr {
 .skills p {
   font-size: 20px;
   text-align: left;
+  margin-bottom: 0;
+}
+
+#skills h3{
+  margin-bottom: 20px;
 }
 
 .section-heading h2 {
@@ -1055,23 +1060,26 @@ tin
 }
 
 div #db {
-  min-height: 308px;
+  min-height: 310px;
+  margin-bottom: 20px;
 }
 
 div #languages {
-  min-height: 308px;
+  min-height: 310px;
+  margin-bottom: 20px;
 }
 
 div #frameworks {
-  min-height: 308px;
+  min-height: 310px;
+  margin-bottom: 20px;
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px){
   .portfolio-item:hover .portfolio-desc {
     padding-top: 0;
   }
 
-  div #db {
+/*  div #db {
     min-height: 340px;
   }
 
@@ -1082,7 +1090,7 @@ div #frameworks {
   div #frameworks {
     min-height: 340px;
   }
-
+*/
 }
 
 @media (max-width: 991px){
@@ -1286,6 +1294,11 @@ hr {
   line-height: 40px;
   /*font-size: 15px;*/
   float: left;
+}
+
+.timeline > li.timeline-current > .timeline-badge {
+  background-color: #F7CB21;
+  color: #FBFAE6;
 }
 
 .timeline > li.timeline-inverted > .timeline-panel {
