@@ -443,9 +443,15 @@ hr {
   padding:20% 0 0 0;
 }
 
+@media(max-width: 767px) {
+  #intro.intro {
+    padding: 125px 30px 75px;
+    height: 510px;
+  }
+}
+
 .intro .slogan {
   text-align: center;
-
 }
 
 .intro .page-scroll {
@@ -814,6 +820,14 @@ Parallax
 
   .intro .slogan h4 {
     font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 15px;
+  }
+
+  .intro .sub-slogan {
+    margin-top: 40px;
+    margin-bottom: 20px;
   }
 
   .home-section {
@@ -909,16 +923,6 @@ Parallax
   
   .tp-banner-container {
     padding-top:40px;
-  }
-
-  .page-scroll a.btn-circle {
-    width: 40px;
-    height: 40px;
-    margin-top: 10px;
-    padding: 7px 0;
-    border: 2px solid #fff;
-    border-radius: 50%;
-    font-size: 20px;
   }
   
 }
@@ -1238,6 +1242,10 @@ hr {
   background-color: #859692;
 }
 
+.timeline > li.timeline-old > .timeline-panel {
+  background-color: #e4ebe9
+}
+
 .timeline > li > .timeline-panel:before {
   position: absolute;
   top: 26px;
@@ -1250,6 +1258,11 @@ hr {
   content: " ";
 }
 
+.timeline > li.timeline-old > .timeline-panel:before {
+  border-left: 15px solid #e4ebe9;
+  border-right: 0 solid #e4ebe9;
+}
+
 .timeline > li > .timeline-panel:after {
   position: absolute;
   top: 27px;
@@ -1260,6 +1273,11 @@ hr {
   border-right: 0 solid #859692;
   border-bottom: 14px solid transparent;
   content: " ";
+}
+
+.timeline > li.timeline-old > .timeline-panel:after {
+  border-left: 14px solid #e4ebe9;
+  border-right: 0 solid #e4ebe9;
 }
 
 .timeline > li > .timeline-badge {
@@ -1351,23 +1369,39 @@ hr {
   text-align: center;
 }
 
+li.timeline-old .cv-title{
+  color: #85969F;
+}
+
+li.timeline-old .cv-date{
+  color: #85969F;
+}
+
+li.timeline-old .timeline-body p{
+  color: #85969F;
+}
+
 .college-body p {
   text-align: center;
 }
 
 @media (max-width: 767px) {
+  .timeline{
+    padding-top: 0;
+  }
+
   ul.timeline:before {
-    left: 40px;
+    left: 25px;
   }
 
   ul.timeline > li > .timeline-panel {
-    width: calc(100% - 90px);
-    width: -moz-calc(100% - 90px);
-    width: -webkit-calc(100% - 90px);
+    width: calc(100% - 70px);
+    width: -moz-calc(100% - 70px);
+    width: -webkit-calc(100% - 70px);
   }
 
   ul.timeline > li > .timeline-badge {
-    left: 15px;
+    left: 5px;
     margin-left: 0;
     top: 16px;
   }
@@ -1389,4 +1423,19 @@ hr {
     left: -14px;
     right: auto;
   }
+
+  ul.timeline > li.timeline-old > .timeline-panel:before {
+    border-left-width: 0;
+    border-right-width: 15px;
+    left: -15px;
+    right: auto;
+  }
+
+  ul.timeline > li.timeline-old > .timeline-panel:after {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+  }
+
 }
