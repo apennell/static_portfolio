@@ -443,13 +443,6 @@ hr {
   padding:20% 0 0 0;
 }
 
-@media(max-width: 767px) {
-  #intro.intro {
-    padding: 125px 30px 75px;
-    height: 510px;
-  }
-}
-
 .intro .slogan {
   text-align: center;
 }
@@ -484,18 +477,28 @@ hr {
 
 .intro .slogan h4 {
   color: #fff;
-  margin-top: 70px;
-  padding-bottom: 20px;
   font-size: 30px;
   line-height: 1.25;
   /*text-shadow: -1px 1px 1px #000;*/
   font-family: 'Megrim', cursive;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.intro .sub-slogan{
+  margin-top: 70px;
+  padding-bottom: 20px;
+}
+
+.intro .social-icons{
+  margin-top: 40px;
 }
 
 .intro .social-icons a {
   color: white;
   font-size: 16px;
   padding-bottom: 20px;
+  margin-top: 40px;
 }
 
 .intro .social-icons a :hover {
@@ -730,6 +733,9 @@ Parallax
   }
   .navbar-toggle {
     display: block;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 20px;
   }
   .navbar-collapse {
     border-top: 1px solid transparent;
@@ -800,9 +806,28 @@ Parallax
 
 }
 
+/* for tablet styling */
+@media (max-width: 991px){
+  #intro.intro {
+    padding:300px 0 0 0;
+  }
+
+  .intro .slogan h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 15px;
+  }
+
+}
+
+
 /* for phone styling */
 @media (max-width:767px) {
-  
+  #intro.intro {
+    padding: 125px 30px 75px;
+    height: 510px;
+  }
+
   .team.boxed-grey {
     margin-bottom: 30px;
   }
@@ -828,6 +853,10 @@ Parallax
   .intro .sub-slogan {
     margin-top: 40px;
     margin-bottom: 20px;
+  }
+
+  .intro .social-icons{
+    margin-top: 0;
   }
 
   .home-section {
@@ -1064,17 +1093,17 @@ tin
 }
 
 div #db {
-  min-height: 310px;
+  min-height: 342px;
   margin-bottom: 20px;
 }
 
 div #languages {
-  min-height: 310px;
+  min-height: 342px;
   margin-bottom: 20px;
 }
 
 div #frameworks {
-  min-height: 310px;
+  min-height: 342px;
   margin-bottom: 20px;
 }
 
@@ -1097,7 +1126,7 @@ div #frameworks {
 */
 }
 
-@media (max-width: 991px){
+@media (max-width: 767px){
   div #db{
     min-height: 100%;
   }
@@ -1385,7 +1414,7 @@ li.timeline-old .timeline-body p{
   text-align: center;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .timeline{
     padding-top: 0;
   }
