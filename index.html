@@ -10,7 +10,7 @@
 
   <!-- fonts -->
   <link href='http://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/c12416527a.js" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/isotope.css">
@@ -29,7 +29,7 @@
     <div class="container">
       <div class="navbar-header page-scroll">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-          <i class="fa fa-bars"></i>
+          <i class="fas fa-bars"></i>
         </button>
         <a class="navbar-brand" href="index.html">
           <h1>Annie Pennell</h1>
@@ -40,10 +40,10 @@
       <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
         <ul class="nav navbar-nav">
           <li><a href="#about">About</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
           <!-- <li><a href="#tiny-projects">Tiny Projects</a></li> -->
           <li><a href="#skills">Skills</a></li>
           <li><a href="#cv">Experience</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
           <!-- <li><a href="http://syntacticsugar.anniepennell.com/">Blog</a></li> -->
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -61,17 +61,19 @@
       <h1 id="hello">Hello World</h1>
     </div>
     <div class="slogan sub-slogan">
-      <h4>I'm a visually-oriented web developer.</h4>
+      <h4>I'm a visually-oriented frontend engineer.</h4>
       <h4>Let's create things together!</h4>
     </div>
     <div class="social-icons slogan">
-      <a href="https://github.com/apennell" target="_blank"><i class="fa fa-github fa-2x" data-toggle="tooltip" title="Github"></i></a>
+      <a href="https://github.com/apennell" target="_blank"><i class="fab fa-github fa-2x" data-toggle="tooltip" title="Github"></i></a>
       &nbsp; &nbsp;
-      <a href="https://www.linkedin.com/in/anniepennell" target="_blank"><i class="fa fa-linkedin fa-2x" data-toggle="tooltip" title="LinkedIn"></i></a>
+      <a href="https://www.linkedin.com/in/anniepennell" target="_blank"><i class="fab fa-linkedin fa-2x" data-toggle="tooltip" title="LinkedIn"></i></a>
       &nbsp; &nbsp;
-      <a href="https://angel.co/annie-pennell" target="_blank"><i class="fa fa-angellist fa-2x" data-toggle="tooltip" title="AngelList"></i></a>
+      <a href="https://angel.co/annie-pennell" target="_blank"><i class="fab fa-angellist fa-2x" data-toggle="tooltip" title="AngelList"></i></a>
       &nbsp; &nbsp;
-      <a href="http://stackoverflow.com/story/apennell" target="_blank"><i class="fa fa-stack-overflow fa-2x" data-toggle="tooltip" title="Stack Overflow"></i></a>
+      <a href="https://medium.com/@syntacticsugar/highlights" target="_blank"><i class="fab fa-medium fa-2x" data-toggle="tooltip" title="Medium -- I highlight well"></i></a>
+      &nbsp; &nbsp;
+      <a href="http://stackoverflow.com/story/apennell" target="_blank"><i class="fab fa-stack-overflow fa-2x" data-toggle="tooltip" title="Stack Overflow"></i></a>
     </div>
   </section>
   <!-- /Section: intro -->
@@ -86,7 +88,7 @@
             <div class="wow bounceInDown" data-wow-delay="0.4s">
               <div class="section-heading">
                 <h2>A bit about me</h2>
-                <i class="fa fa-2x fa-angle-down"></i>
+                <i class="fas fa-2x fa-angle-down"></i>
               </div>
             </div>
           </div>
@@ -107,7 +109,10 @@
             <div class="team boxed-grey silver-bg">
               <div class="inner">
                 <p>
-                  As a frontend web developer at <a href="https://www.bridge.us/"><strong>an immigration services startup</strong></a>, I get to work on many pieces of our product. Although I’m at my best when immersed in the world of React.js components, I build those components based on designs I made in Sketch, manipulate controllers when I need different data, and finish it all off with Rspec tests. My non-traditional background in visual arts gives me a unique perspective and ability that takes my performance, and our product experience, to the next level. On a small engineering team with no official designers, I’m able to make a big impact and it’s exciting to see the progress we’re able to making a short time.
+                  As a frontend engineer on small engineering teams, I've been able to make a big impact on the products I've worked on. I’m at my best when immersed in the world of React.js components, but I've done everything from designing in Sketch to building features specs with Rspec. My <a href="http://photography.anniepennell.com/" target="_blank">non-traditional background</a> in visual arts gives me a unique perspective and ability that takes my performance, and the products I work on, to the next level.
+                </p>
+                <p>
+                  I'm obsessed with pattern libraries and passionate about building <a href="https://dls.enwoven.com/" target="_blank">component systems</a> that increase code reuse and user experience consistency. Using my skills to give back to the community is also very important to me, whether it's advising students on career paths with Built By Girls' <a href="https://www.builtbygirls.com/about-wave" target="_blank">WAVE program</a>, volunteering to build candidates' campaign sites through <a href="https://www.techforcampaigns.org/" target="_blank">Tech For Campaigns,</a> or facilitating a <a href="https://girlswhocode.com/" target="_blank">Girls Who Code</a> club of middle school and high school girls. I also strangely enjoy project/task management solutions and hope to one day hold a leadership role.
                 </p>
               </div>
             </div>
@@ -120,286 +125,8 @@
   <!-- /Section: about -->
   
 
-  <!-- Section: portfolio -->
-  <section id="portfolio" class="home-section text-center mint-bg appear clearfix secPad">
-    <div class="heading-about">
-      <div class="container">
-        
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="wow bounceInDown" data-wow-delay="0.4s">
-              <div class="section-heading">
-                <h2>Portfolio</h2>
-                <i class="fa fa-2x fa-angle-down"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-2 col-lg-offset-5">
-            <hr class="marginbot-50">
-          </div>
-        </div>
-
-        <div class="col-md-12">
-          <div class="row">
-            <div class="portfolio-items isotopeWrapper clearfix">
-              
-              <!-- thp portfolio item -->
-              <!-- thp modal -->
-              <div class="md-modal md-effect-12" id="modal-thp">
-                <div class="md-content">
-                  <h1><a href="https://thehistoryproject.com/" class="orange-text">The History Project</a></h1>
-                  <div>
-                    <strong><a href="https://thehistoryproject.com/" class="orange-text">Visit App</a></strong>
-                    <br>
-                    <p class="date">Joined September 2015</p>
-                    <p class="modal-show">
-                      The History Project empowers families and organizations to connect memories across media to build experiential stories that transcend generations. Our set of online and mobile tools allows users to intelligently collect, beautifully curate and delightfully collaborate in building their personal life stories.
-                    </p>
-                    <p class="modal-hide">
-                      The History Project is built with Laravel and PHP and we later integrated React. The backend utilized mySQL and we implement many tools and libraries, including Sass, Bootstrap, and jQuery. We utilize many APIs, including Facebook, Google Drive, Gmail, Dropbox, and Instagram.
-                    </p>
-                    <p class="modal-show">
-                      I joined the team within the first year as the fourth engineer as V2 was getting ready to launch. I often touch the backend but focus on the front and work closely with the design team. Additionally, I am diving into Xcode to maintain our mobile iOS app. 
-                    </p>
-                    <br>
-                    <button class="md-close btn btn-positive">Close</button>
-                  </div>
-                </div>
-              </div>
-              <div class="md-overlay"></div>
-
-              <article class="col-md-6 isotopeItem">
-                <div class="portfolio-item md-trigger" data-modal="modal-thp">
-                  <img src="img/thp/thp.png">
-                  <div class="portfolio-desc align-center">
-                    <div class="folio-info">
-                        <h4 class="port-name">The History Project</h4>
-                        <button class="md-trigger btn cream-bg" data-modal="modal-create"><i class="fa fa-arrows-alt fa-2x orange-text"></i></button>
-                        <h5 class="port-desc modal-hide">ReactJS, JavaScript, jQuery, PHP, Laravel, MySQL</h5>
-                    </div>
-                  </div>
-                </div>
-              </article>
-              <!-- /thp portfolio item -->
-
-              <!-- create portfolio item -->
-              <!-- create modal -->
-              <div class="md-modal md-effect-12" id="modal-create">
-                <div class="md-content">
-                  <h1><a href="https://createtoday.herokuapp.com/" class="orange-text">Create</a></h1>
-                  <div>
-                    <strong><a href="https://createtoday.herokuapp.com/" class="orange-text">Visit App</a> | <a href="https://github.com/apennell/create_app" class="orange-text">GitHub Repository</a></strong>
-                    <br>
-                    <p class="date">Created April 2015</p>
-                    <p class="modal-hide">
-                      Create is a daily art prompt web app built with Node.js, Express, Postgres, and Bootstrap, integrating authentication and authorization. Utilizing Wordnik’s API, a new word appears every day to provide inspiration. Users, called creators, use the prompt to make something in response, which can be posted to the site. All posts ("creations") can be viewed publicly, as well users' public profiles.
-                    </p>
-                    <p class="modal-hide">
-                      The MVP simply allows for a written creation (poem, short story, etc.), but the goal is to add an image upload option so that photographers and visual artists can contribute as well. It has authorization and authentication to allow users to post and delete creations. It currently has a one-to-many association with many creations belonging to one user, but I would like to add a prompt model.
-                    </p>
-                    <p class="modal-show">
-                      Create is a daily art prompt web app built with Node.js, Express, and Postgres. Utilizing Wordnik’s API, a new word appears every day to provide inspiration and users can post the creations they made in response to the prompt.
-                    </p>
-                    <br>
-                    <button class="md-close btn btn-positive">Close</button>
-                  </div>
-                </div>
-              </div>
-              <div class="md-overlay"></div>
-
-              <article class="col-md-6 isotopeItem">
-                <div class="portfolio-item md-trigger" data-modal="modal-create">
-                  <img src="img/create/create.png">
-                  <div class="portfolio-desc align-center">
-                    <div class="folio-info">
-                        <h4 class="port-name">Create</h4>
-                        <button class="md-trigger btn cream-bg" data-modal="modal-create"><i class="fa fa-arrows-alt fa-2x orange-text"></i></button>
-                        <h5 class="port-desc modal-hide">JavaScript, Node.js, Express, PostgreSQL, Wordnik API</h5>
-                    </div>
-                  </div>
-                </div>
-              </article>
-              <!-- /create portfolio item -->
-
-              <!-- epoch portfolio item -->
-              <!-- create modal -->
-              <div class="md-modal md-effect-12" id="modal-epoch">
-                <div class="md-content">
-                  <h1><a href="https://epochbank.herokuapp.com/" class="orange-text">Epoch</a></h1>
-                  <div>
-                    <strong><a href="https://epochbank.herokuapp.com/" class="orange-text">Visit App</a> | <a href="https://github.com/apennell/timebank" class="orange-text">GitHub Repository</a></strong>
-                    <br>
-                    <p class="date">Created April 2015</p>
-                    <p class="modal-hide">
-                      Epoch is a time banking web app built with Ruby on Rails, utilizing AJAX, Bootstrap, Devise, and Twilio's API. Epoch was built by myself, James Bradley, Lyn Muldrow, and Steven Gordon. In addition to acting as project manager for three other engineers, my main tasks were authentication and authorization, constructing the User controller and views, and styling.
-                    </p>
-                    <p class="modal-hide">
-                      Epoch allows users to receive services using the currency of their time, which is earned by providing other users with their own services. Every hour of work completed is removed from the recipient's account and added to the provider's, which can then be spent getting help from another user. Users can list services they can provide as well as services they need. When a request is made, a text message alert is sent to the the user receiving the request. An exchange page is generated when a request is made and, once accepted, they receive each other's contact information. After service is rendered, this is confirmed on the site and the hour is transferred from the recipient to the provider's time bank. A text message alert is sent to the user at each of the 4 stages of the exchange process--when it is proposed, accepted, delivered, and confirmed. 
-                    </p>
-                    <p class="modal-show">
-                      Epoch is a time banking web app built with Ruby on Rails. Every hour of work a user completes for another is removed from the recipient's account and added to the provider's, which can then be spent getting help from another user.
-                    </p>
-                    <br>
-                    <button class="md-close btn btn-positive">Close</button>
-                  </div>
-                </div>
-              </div>
-              <div class="md-overlay"></div>
-
-              <article class="col-md-6 isotopeItem">
-                <div class="portfolio-item md-trigger" data-modal="modal-epoch">
-                  <img src="img/epoch/epoch.png">
-                  <div class="portfolio-desc align-center">
-                    <div class="folio-info">
-                        <h4 class="port-name">Epoch</h4>
-                        <button class="md-trigger btn cream-bg" data-modal="modal-epoch"><i class="fa fa-arrows-alt fa-2x orange-text"></i></button>
-                        <h5 class="port-desc modal-hide">Ruby on Rails, AJAX, Devise, Twilio API</h5>
-                    </div>
-                  </div>
-                </div>
-              </article>
-
-
-              <!-- mindkit portfolio item -->
-              <!-- mindkit modal -->
-              <div class="md-modal md-effect-12" id="modal-mindkit">
-                <div class="md-content">
-                  <h1>MindKit</h1>
-                  <div>
-                    <strong><a href="https://github.com/apennell/mindKit" class="orange-text">GitHub Repository</a></strong>
-                      <br>
-                      <p class="date">Created June 2015</p>
-                      <p class="modal-hide">
-                        MindKit is a hybrid mobile app that acts as a toolkit for combating depression on a daily basis, largely through the use of cognitive behavioral therapy (CBT). It is built with Ionic using AngularJS and the database is connected with a NodeJS, Express, and PostgreSQL backend API. It is currently in beta in the Ionic View app, but once completed will be available for iOS and Android.
-                      </p>
-                      <p class="modal-hide">
-                        The initial MVP is the thought log, in which Ionic-Wizard takes the user through a series of questions typical of a CBT automatic negative thought log to analyze a situation and their resulting thoughts and emotions. In the final step, the user is presented with their initial emotions and the strengths at which they reported feeling them and is asked to re-rate the emotions after going through the thought log. The differences between the initial and new emotions are averaged out and the user is shown the percentage of their improvement on this situation. They are also shown a lifetime improvement average and a graph of each entry's improvement on their progress page to see how the exercises are helping.
-                      </p>
-                      <p class="modal-show">
-                        MindKit is a hybrid mobile app that acts as a toolkit for combating depression on a daily basis, largely through the use of cognitive behavioral therapy (CBT). It is currently in beta in the Ionic View app.
-                      </p><br>
-                    <button class="md-close btn btn-positive">Close</button>
-                  </div>
-                </div>
-              </div>
-
-              <div class="md-overlay"></div>
-
-              <article class="col-md-6 isotopeItem">
-                <div class="portfolio-item md-trigger" data-modal="modal-mindkit">
-                  <img src="img/mindkit/mindkit.png">
-                  <div class="portfolio-desc align-center">
-                    <div class="folio-info">
-                        <h4 class="port-name">MindKit</h4>
-                        <button class="md-trigger btn cream-bg" data-modal="modal-mindkit"><i class="fa fa-arrows-alt fa-2x orange-text"></i></button>
-                        <h5 class="port-desc modal-hide">Ionic, AngularJS, Node.js, Express, PostgreSQL</h5>
-                    </div>
-                  </div>
-                </div>
-              </article>
-            </div>
-
-          </div>
-        </div> <!-- end portfolio items -->
-
-      </div>
-
-      <div class="md-overlay"></div><!-- the overlay element -->
-
-    </div>   
-  </section>
-  <!-- /Section: portfolio -->
-  
-
-  <!-- Section: tiny projects -->
-<!--   <section id="tiny-projects" class="home-section text-center silver-bg appear clearfix secPad">
-    <div class="heading-about">
-      <div class="container">
-        
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="wow bounceInDown" data-wow-delay="0.4s">
-              <div class="section-heading">
-                <h2>Tiny Projects</h2>
-                <i class="fa fa-2x fa-angle-down"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-2 col-lg-offset-5">
-            <hr class="marginbot-50">
-          </div>
-        </div>
-
-        <div class="col-md-12">
-          <div class="row">
-            <div class="portfolio-items isotopeWrapper clearfix">
-              <div class="col-sm-12 section-head">
-                <h4>Not all apps need to be big. These are smaller apps and pages that I've made for fun and practice. More to come!</h4>
-              </div> -->
-
-              <!-- about me item -->
-<!--               <article class="col-xs-12 col-sm-6 isotopeItem">
-                <div class="portfolio-item tinyproject">
-                  <img src="img/tinyprojects/aboutme.png">
-                  <div class="tp-desc portfolio-desc">
-                    <div class="folio-info">
-                      <a href="http://apennell.github.io/about_me_page/">
-                        <h4 class="tp-name cream-text">About Me</h4>
-                        <button class="md-trigger btn cream-bg"><i class="fa  fa-external-link-square fa-2x yellow-text"></i></button><br><br>
-                        <a href="https://github.com/apennell/about_me_page"><strong  class="github-link">GitHub Repo</strong></a>
-                        <h5 class="port-desc cream-text modal-hide">
-                          February 2015 | HTML, CSS, jQuery
-                        </h5>
-                        <h5 class="port-desc cream-text modal-hide">
-                          This static page was created as an application assignment for the General Assembly Web Development Immersive course.
-                      </h5>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </article> -->
-              <!-- /about me item -->
-
-              <!-- tictactoe item -->
-<!--               <article class="col-xs-12 col-sm-6 isotopeItem">
-                <div class="portfolio-item tinyproject">
-                  <img src="img/tinyprojects/tictactoe.png">
-                  <div class="portfolio-desc tp-desc">
-                    <div class="folio-info">
-                      <a href="http://apennell.github.io/tictactoe/">
-                        <h4 class="tp-name cream-text">TicTacToe</h4>
-                        <button class="md-trigger btn cream-bg"><i class="fa  fa-external-link-square fa-2x yellow-text"></i></button><br><br>
-                        <a href="https://github.com/apennell/about_me_page"><strong class="github-link">GitHub Repo</strong></a>
-                        <h5 class="port-desc cream-text modal-hide">
-                          March 2015 | HTML, CSS, JavaScript, jQuery
-                        </h5>
-                        <h5 class="port-desc cream-text modal-hide">
-                          This TicTacToe project was my first venture into building a functioning app with JavaScript.
-                      </h5>
-                      </a>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </article> -->
-              <!-- /tictactoe item -->
-
-<!--             </div>
-          </div>
-        </div>  --><!-- end tiny project items -->
-<!-- 
-      </div>
-    </div>   
-  </section> -->
-  <!-- /Section: tiny projects -->
-
-
   <!-- Section: skills -->
-  <section id="skills" class="home-section text-center bg-white appear clearfix secPad">
+  <section id="skills" class="home-section text-center mint-bg appear clearfix secPad">
     <div class="heading-about">
       <div class="container">
         
@@ -408,7 +135,7 @@
             <div class="wow bounceInDown" data-wow-delay="0.4s">
               <div class="section-heading">
                 <h2>Skills</h2>
-                <i class="fa fa-2x fa-angle-down"></i>
+                <i class="fas fa-2x fa-angle-down"></i>
               </div>
             </div>
           </div>
@@ -429,14 +156,13 @@
                   <div class="inner">
                     <h3>Frontend</h3>
                     <div class="skills">
-                      <p>Javascript</p>
+                      <p>JavaScript</p>
                       <p>ReactJS</p>
+                      <p>Redux</p>
                       <p>jQuery</p>
-                      <p>Sass</p>
                       <p>HTML</p>
                       <p>CSS</p>
-                      <p>Bootstrap</p>
-                      <p>Wordpress</p>
+                      <p>Sass</p>
                     </div>
                   </div>
                 </div>
@@ -447,15 +173,12 @@
               <div class="wow bounceInUp" data-wow-delay="0.2s">
                 <div id="frameworks" class="steel-bg cream-text">
                   <div class="inner">
-                    <h3>Backend</h3>
+                    <h3>Full Stack</h3>
                     <div class="skills">
-                      <p>Ruby on Rails</p>
-                      <p>PHP</p>
-                      <p>Laravel</p>
-                      <p>Node.js</p>
-                      <p>MySQL</p>
-                      <p>PostgreSQL</p>
                       <p>Git/GitHub</p>
+                      <p>Ruby on Rails</p>
+                      <p>PHP/Laravel</p>
+                      <p>Wordpress</p>
                     </div>
                   </div>
                 </div>
@@ -509,7 +232,7 @@
             <div class="wow bounceInDown" data-wow-delay="0.4s">
               <div class="section-heading">
                 <h2>Experience</h2>
-                <i class="fa fa-2x fa-angle-down"></i>
+                <i class="fas fa-2x fa-angle-down"></i>
               </div>
             </div>
           </div>
@@ -528,24 +251,40 @@
     <div class="container">
       <ul class="timeline">
 
-
-        <li class="timeline-inverted timeline-current">
-          <div class="timeline-badge"><i class="fa fa-code"></i></div>
+        <li class="timeline-current">
+          <div class="timeline-badge"><i class="fas fa-code"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h4 class="timeline-title cv-title">Frontend developer<span> / Bridge US</span></h4>
-              <p class="text-muted cv-date">August 2017 - Present</p>
+              <h4 class="timeline-title cv-title">Frontend Developer<span> / CoverHound & Cyberpolicy</span></h4>
+              <p class="text-muted cv-date">August 2018 - Present</p>
             </div>
             <div class="timeline-body">
-              <p>> Introduced React.js to the existing Ruby on Rails platform, incrementally replacing it with faster and reusable React components</p>
-              <p>> Creating and interating on new designs and interactions, then implementing them with React.js and React-on-Rails</p>
+              <p>> Work with design, product, and fellow engineers to build, improve, and maintain the internal agent portal for CoverHound's digital insurance solution, as well as the customer-facing commercial insurance product.</p>
+              <p>> Work with designer to create a design language system and build it into a component library using React and living documentation with React Styleguidist.</p>
+              <p>> Build responsive marketing pages for Cyberpolicy with a flexible system of reusable components.</p>
+              <p>> Organize bi-weekly tech lunches, including findings speakers, curating content, and fostering conversations around tech and diversity.</p>
             </div>
           </div>
         </li>
 
+        <li class="timeline-inverted">
+          <div class="timeline-badge"><i class="fas fa-code"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title cv-title">Frontend Developer<span> / Bridge US</span></h4>
+              <p class="text-muted cv-date">August 2017 - July 2018</p>
+            </div>
+            <div class="timeline-body">
+              <p>> Introduced React.js to the existing Ruby on Rails platform, incrementally replacing it with faster and reusable React components</p>
+              <p>> Worked with stakeholders to redesign the app’s interface by creating and iterating on new designs and interactions in Sketch, then implementing them with React.js and React-on-Rails.</p>
+              <p>> Created library of reusable React components with a living style guide, allowing for faster development and more consistent interfaces without designers.</p>
+              <p>> Advocated for developing with sprint cycles and introduced new ticketing system that standardized our product development process.</p>
+            </div>
+          </div>
+        </li>
 
         <li>
-          <div class="timeline-badge"><i class="fa fa-code"></i></div>
+          <div class="timeline-badge"><i class="fas fa-code"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
               <h4 class="timeline-title cv-title">Software Engineer<span> / The History Project</span></h4>
@@ -562,10 +301,10 @@
         </li>
 
         <li class="timeline-inverted">
-          <div class="timeline-badge"><i class="fa fa-code-fork"></i></div>
+          <div class="timeline-badge"><i class="fas fa-code-branch"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h4 class="timeline-title cv-title">Club Facilitator<span> / Girls Who Code</span></h4>
+              <h4 class="timeline-title cv-title">Volunteer Club Facilitator<span> / Girls Who Code</span></h4>
               <p class="text-muted cv-date">December 2016 - June 2017</p>
             </div>
             <div class="timeline-body">
@@ -575,7 +314,7 @@
         </li>
 
         <li>
-          <div class="timeline-badge"><i class="fa fa-code-fork"></i></div>
+          <div class="timeline-badge"><i class="fas fa-code-branch"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
               <h4 class="timeline-title cv-title">Developer in Residence<span> / General Assembly</span></h4>
@@ -588,7 +327,7 @@
         </li>
 
         <li class="timeline-inverted">
-          <div class="timeline-badge"><i class="fa fa-graduation-cap"></i></div>
+          <div class="timeline-badge"><i class="fas fa-graduation-cap"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
               <h4 class="timeline-title cv-title">Student<span> / General Assembly Web Development Immersive</span></h4>
@@ -601,7 +340,7 @@
         </li>
 
         <li class="timeline-old">
-          <div class="timeline-badge"><i class="fa fa-picture-o"></i></div>
+          <div class="timeline-badge"><i class="fas fa-images"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
               <h4 class="timeline-title cv-title">Fine Art Print Specialist<span> / Lakeside Photoworks</span></h4>
@@ -611,7 +350,7 @@
         </li>
 
         <li class="timeline-inverted timeline-old">
-          <div class="timeline-badge"><i class="fa fa-picture-o"></i></div>
+          <div class="timeline-badge"><i class="fas fa-images"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
               <h4 class="timeline-title cv-title">Freelance Photographer</h4>
@@ -621,7 +360,7 @@
         </li>
 
         <li class="timeline-old">
-          <div class="timeline-badge"><i class="fa fa-tags"></i></div>
+          <div class="timeline-badge"><i class="fas fa-tags"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
               <h4 class="timeline-title cv-title">Assistant Manager<span> / Langford Market</span></h4>
@@ -631,7 +370,7 @@
         </li>
 
         <li class="timeline-inverted timeline-old">
-          <div class="timeline-badge"><i class="fa fa-graduation-cap"></i></div>
+          <div class="timeline-badge"><i class="fas fa-graduation-cap"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
               <h4 class="timeline-title cv-title">Johnston Center for Integrative Studies<span> / University of Redlands</span></h4>
@@ -654,6 +393,207 @@
     <!-- /NEW TIMELINE -->
   </section>
   <!-- /Section: resume -->
+
+
+  <!-- Section: portfolio -->
+  <section id="portfolio" class="home-section text-center bg-white appear clearfix secPad">
+    <div class="heading-about">
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="wow bounceInDown" data-wow-delay="0.4s">
+              <div class="section-heading">
+                <h2>Portfolio*</h2>
+                <i class="fas fa-2x fa-angle-down"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-2 col-lg-offset-5">
+            <hr class="marginbot-50">
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <div class="row">
+            <div class="portfolio-items isotopeWrapper clearfix">
+              
+              <!-- thp portfolio item -->
+              <!-- thp modal -->
+              <div class="md-modal md-effect-12" id="modal-thp">
+                <div class="md-content">
+                  <h1><a href="https://thehistoryproject.com/" class="orange-text">The History Project</a></h1>
+                  <div>
+                    <strong><a href="https://thehistoryproject.com/" class="orange-text">Visit App</a></strong>
+                    <br>
+                    <p class="date">Joined September 2015</p>
+                    <p class="modal-show">
+                      The History Project empowers families and organizations to connect memories across media to build experiential stories that transcend generations. Our set of online and mobile tools allows users to intelligently collect, beautifully curate and delightfully collaborate in building their personal life stories.
+                    </p>
+                    <p class="modal-hide">
+                      The History Project is built with Laravel and PHP and we later integrated React. The backend utilized mySQL and we implement many tools and libraries, including Sass, Bootstrap, and jQuery. We utilize many APIs, including Facebook, Google Drive, Gmail, Dropbox, and Instagram.
+                    </p>
+                    <p class="modal-show">
+                      I joined the team within the first year as the fourth engineer as V2 was getting ready to launch. I often touch the backend but focus on the front and work closely with the design team. Additionally, I am diving into Xcode to maintain our mobile iOS app. 
+                    </p>
+                    <br>
+                    <button class="md-close btn btn-positive">Close</button>
+                  </div>
+                </div>
+              </div>
+              <div class="md-overlay"></div>
+
+              <article class="col-md-6 isotopeItem">
+                <div class="portfolio-item md-trigger" data-modal="modal-thp">
+                  <img src="img/thp/thp.png">
+                  <div class="portfolio-desc align-center">
+                    <div class="folio-info">
+                        <h4 class="port-name">The History Project</h4>
+                        <button class="md-trigger btn cream-bg" data-modal="modal-create"><i class="fas fa-arrows-alt fa-2x orange-text"></i></button>
+                        <h5 class="port-desc modal-hide">ReactJS, JavaScript, jQuery, PHP, Laravel, MySQL</h5>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <!-- /thp portfolio item -->
+
+              <!-- create portfolio item -->
+              <!-- create modal -->
+              <div class="md-modal md-effect-12" id="modal-create">
+                <div class="md-content">
+                  <h1><a href="https://createtoday.herokuapp.com/" class="orange-text">Create</a></h1>
+                  <div>
+                    <strong><a href="https://createtoday.herokuapp.com/" class="orange-text">Visit App</a> | <a href="https://github.com/apennell/create_app" class="orange-text">GitHub Repository</a></strong>
+                    <br>
+                    <p class="date">Created April 2015</p>
+                    <p class="modal-hide">
+                      Create is a daily art prompt web app built with Node.js, Express, Postgres, and Bootstrap, integrating authentication and authorization. Utilizing Wordnik’s API, a new word appears every day to provide inspiration. Users, called creators, use the prompt to make something in response, which can be posted to the site. All posts ("creations") can be viewed publicly, as well users' public profiles.
+                    </p>
+                    <p class="modal-hide">
+                      The MVP simply allows for a written creation (poem, short story, etc.), but the goal is to add an image upload option so that photographers and visual artists can contribute as well. It has authorization and authentication to allow users to post and delete creations. It currently has a one-to-many association with many creations belonging to one user, but I would like to add a prompt model.
+                    </p>
+                    <p class="modal-show">
+                      Create is a daily art prompt web app built with Node.js, Express, and Postgres. Utilizing Wordnik’s API, a new word appears every day to provide inspiration and users can post the creations they made in response to the prompt.
+                    </p>
+                    <br>
+                    <button class="md-close btn btn-positive">Close</button>
+                  </div>
+                </div>
+              </div>
+              <div class="md-overlay"></div>
+
+              <article class="col-md-6 isotopeItem">
+                <div class="portfolio-item md-trigger" data-modal="modal-create">
+                  <img src="img/create/create.png">
+                  <div class="portfolio-desc align-center">
+                    <div class="folio-info">
+                        <h4 class="port-name">Create</h4>
+                        <button class="md-trigger btn cream-bg" data-modal="modal-create"><i class="fas fa-arrows-alt fa-2x orange-text"></i></button>
+                        <h5 class="port-desc modal-hide">JavaScript, Node.js, Express, PostgreSQL, Wordnik API</h5>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <!-- /create portfolio item -->
+
+              <!-- epoch portfolio item -->
+              <!-- create modal -->
+              <div class="md-modal md-effect-12" id="modal-epoch">
+                <div class="md-content">
+                  <h1><a href="https://epochbank.herokuapp.com/" class="orange-text">Epoch</a></h1>
+                  <div>
+                    <strong><a href="https://epochbank.herokuapp.com/" class="orange-text">Visit App</a> | <a href="https://github.com/apennell/timebank" class="orange-text">GitHub Repository</a></strong>
+                    <br>
+                    <p class="date">Created April 2015</p>
+                    <p class="modal-hide">
+                      Epoch is a time banking web app built with Ruby on Rails, utilizing AJAX, Bootstrap, Devise, and Twilio's API. Epoch was built by myself, James Bradley, Lyn Muldrow, and Steven Gordon. In addition to acting as project manager for three other engineers, my main tasks were authentication and authorization, constructing the User controller and views, and styling.
+                    </p>
+                    <p class="modal-hide">
+                      Epoch allows users to receive services using the currency of their time, which is earned by providing other users with their own services. Every hour of work completed is removed from the recipient's account and added to the provider's, which can then be spent getting help from another user. Users can list services they can provide as well as services they need. When a request is made, a text message alert is sent to the the user receiving the request. An exchange page is generated when a request is made and, once accepted, they receive each other's contact information. After service is rendered, this is confirmed on the site and the hour is transferred from the recipient to the provider's time bank. A text message alert is sent to the user at each of the 4 stages of the exchange process--when it is proposed, accepted, delivered, and confirmed. 
+                    </p>
+                    <p class="modal-show">
+                      Epoch is a time banking web app built with Ruby on Rails. Every hour of work a user completes for another is removed from the recipient's account and added to the provider's, which can then be spent getting help from another user.
+                    </p>
+                    <br>
+                    <button class="md-close btn btn-positive">Close</button>
+                  </div>
+                </div>
+              </div>
+              <div class="md-overlay"></div>
+
+              <article class="col-md-6 isotopeItem">
+                <div class="portfolio-item md-trigger" data-modal="modal-epoch">
+                  <img src="img/epoch/epoch.png">
+                  <div class="portfolio-desc align-center">
+                    <div class="folio-info">
+                        <h4 class="port-name">Epoch</h4>
+                        <button class="md-trigger btn cream-bg" data-modal="modal-epoch"><i class="fas fa-arrows-alt fa-2x orange-text"></i></button>
+                        <h5 class="port-desc modal-hide">Ruby on Rails, AJAX, Devise, Twilio API</h5>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+
+              <!-- mindkit portfolio item -->
+              <!-- mindkit modal -->
+              <div class="md-modal md-effect-12" id="modal-mindkit">
+                <div class="md-content">
+                  <h1>MindKit</h1>
+                  <div>
+                    <strong><a href="https://github.com/apennell/mindKit" class="orange-text">GitHub Repository</a></strong>
+                      <br>
+                      <p class="date">Created June 2015</p>
+                      <p class="modal-hide">
+                        MindKit is a hybrid mobile app that acts as a toolkit for combating depression on a daily basis, largely through the use of cognitive behavioral therapy (CBT). It is built with Ionic using AngularJS and the database is connected with a NodeJS, Express, and PostgreSQL backend API. It is currently in beta in the Ionic View app, but once completed will be available for iOS and Android.
+                      </p>
+                      <p class="modal-hide">
+                        The initial MVP is the thought log, in which Ionic-Wizard takes the user through a series of questions typical of a CBT automatic negative thought log to analyze a situation and their resulting thoughts and emotions. In the final step, the user is presented with their initial emotions and the strengths at which they reported feeling them and is asked to re-rate the emotions after going through the thought log. The differences between the initial and new emotions are averaged out and the user is shown the percentage of their improvement on this situation. They are also shown a lifetime improvement average and a graph of each entry's improvement on their progress page to see how the exercises are helping.
+                      </p>
+                      <p class="modal-show">
+                        MindKit is a hybrid mobile app that acts as a toolkit for combating depression on a daily basis, largely through the use of cognitive behavioral therapy (CBT). It is currently in beta in the Ionic View app.
+                      </p><br>
+                    <button class="md-close btn btn-positive">Close</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="md-overlay"></div>
+
+              <article class="col-md-6 isotopeItem">
+                <div class="portfolio-item md-trigger" data-modal="modal-mindkit">
+                  <img src="img/mindkit/mindkit.png">
+                  <div class="portfolio-desc align-center">
+                    <div class="folio-info">
+                        <h4 class="port-name">MindKit</h4>
+                        <button class="md-trigger btn cream-bg" data-modal="modal-mindkit"><i class="fas fa-arrows-alt fa-2x orange-text"></i></button>
+                        <h5 class="port-desc modal-hide">Ionic, AngularJS, Node.js, Express, PostgreSQL</h5>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+          </div>
+          <p class="text-right">*This section will get updated "someday"</p>
+        </div> <!-- end portfolio items -->
+
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="section-heading">
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="md-overlay"></div><!-- the overlay element -->
+
+    </div>   
+  </section>
+  <!-- /Section: portfolio -->
 
 
   <!-- Section: contact -->
@@ -697,17 +637,17 @@
           <div class="wow bounceInUp" data-wow-delay="0.2s">
             <div class="team boxed-grey">
               <div id="social-contact" class="inner social-icons slogan">
-                <a href="https://github.com/apennell" target="_blank"><i class="fa fa-github fa-2x" data-toggle="tooltip" title="Github"></i></a>
+                <a href="https://github.com/apennell" target="_blank"><i class="fab fa-github fa-2x" data-toggle="tooltip" title="Github"></i></a>
                 &nbsp; &nbsp; &nbsp;
-                <a href="https://www.linkedin.com/in/anniepennell" target="_blank"><i class="fa fa-linkedin fa-2x" data-toggle="tooltip" title="LinkedIn"></i></a>
+                <a href="https://www.linkedin.com/in/anniepennell" target="_blank"><i class="fab fa-linkedin fa-2x" data-toggle="tooltip" title="LinkedIn"></i></a>
                 &nbsp; &nbsp; &nbsp;
-                <a href="https://angel.co/annie-pennell" target="_blank"><i class="fa fa-angellist fa-2x" data-toggle="tooltip" title="AngelList"></i></a>
+                <a href="https://angel.co/annie-pennell" target="_blank"><i class="fab fa-angellist fa-2x" data-toggle="tooltip" title="AngelList"></i></a>
                 &nbsp; &nbsp;
-                <a href="http://stackoverflow.com/story/apennell" target="_blank"><i class="fa fa-stack-overflow fa-2x" data-toggle="tooltip" title="Stack Overflow"></i></a>
+                <a href="https://medium.com/@syntacticsugar/highlights" target="_blank"><i class="fab fa-medium fa-2x" data-toggle="tooltip" title="Medium -- I highlight well"></i></a>
+                &nbsp; &nbsp;
+                <a href="http://stackoverflow.com/story/apennell" target="_blank"><i class="fab fa-stack-overflow fa-2x" data-toggle="tooltip" title="Stack Overflow"></i></a>
                 &nbsp; &nbsp; &nbsp;
-                <a href="http://photography.anniepennell.com/" target="_blank"><i class="fa fa-camera fa-2x" data-toggle="tooltip" title="Photography Portfolio"></i></a>
-                &nbsp; &nbsp; &nbsp;
-                <a href="https://instagram.com/syntactic_sugar/" target="_blank"><i class="fa fa-instagram fa-2x" data-toggle="tooltip" title="Instagram"></i></a>
+                <a href="http://photography.anniepennell.com/" target="_blank"><i class="fas fa-camera-retro fa-2x" data-toggle="tooltip" title="Photography Portfolio"></i></a>
               </div>
             </div>
           </div>
@@ -725,11 +665,11 @@
           <div class="wow shake" data-wow-delay="0.4s">
           <div class="page-scroll marginbot-30">
             <a href="#intro" id="totop" class="btn btn-circle">
-              <i class="fa fa-angle-double-up animated"></i>
+              <i class="fas fa-angle-double-up animated"></i>
             </a>
           </div>
           </div>
-          <p>&copy; Copyright 2018 - Annie Pennell</p>
+          <p>&copy; Copyright 2019 - Annie Pennell</p>
         </div>
       </div>  
     </div>
